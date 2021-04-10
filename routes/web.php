@@ -24,3 +24,5 @@ $router->get('foo', function () {
 $router->post('foo', function () {
     //
 });
+
+$router->get('name_basics/index', 'NameBasicsController@index');

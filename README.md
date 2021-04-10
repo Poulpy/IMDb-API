@@ -29,6 +29,7 @@ wget https://datasets.imdbws.com/name.basics.tsv.gz \
 
 ```
 php -S localhost:8000 -t public
+firefox Hhttp://localhost:8000/name_basics/index
 ```
 
 

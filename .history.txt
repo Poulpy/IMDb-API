@@ -1,0 +1,2000 @@
+ 1032  java -jar dist/zumu_panchi.jar 
+ 1033  ls
+ 1034  less src/fr/uvsq/zumu_panchi/App.java 
+ 1035  less README.md 
+ 1036  ant init
+ 1037  ls bin/
+ 1038  ant app
+ 1039  ant build
+ 1040  ant --version
+ 1041  ant -v
+ 1042  ls
+ 1043  java -jar dist/zumu_panchi.jar 
+ 1044  ant app
+ 1045  javac -cp=src src/fr/uvsq/zumu_panchi/App.java 
+ 1046  javac -cp:src src/fr/uvsq/zumu_panchi/App.java 
+ 1047  man javac
+ 1048  javac -cp src src/fr/uvsq/zumu_panchi/App.java 
+ 1049  ls
+ 1050  java src.fr.uvsq.zumu_panchi.App 
+ 1051  java -cp src fr.uvsq.zumu_panchi.App 
+ 1052  cd src/
+ 1053  java fr.uvsq.zumu_panchi.App 
+ 1054  cd ..
+ 1055  libsdl2-dev
+ 1056  sudo apt install libsdl2-dev
+ 1057  sudo apt install libsdl-dev
+ 1058  cd ../Escampe/
+ 1059  ls
+ 1060  ls src/
+ 1061  make clean
+ 1062  make 
+ 1063  ls include/
+ 1064  ls
+ 1065  make 
+ 1066  make clean
+ 1067  make 
+ 1068  make clean
+ 1069  make 
+ 1070  ./bin/main 
+ 1071  git status
+ 1072  make clean
+ 1073  git status
+ 1074  l
+ 1075  ls
+ 1076  head gmon.out 
+ 1077  clear
+ 1078  make clean
+ 1079  make 
+ 1080  ./bin/main 
+ 1081  ls
+ 1082  make clean
+ 1083  ls
+ 1084  git status
+ 1085  git commit -am "Clean"
+ 1086  git push origin master
+ 1087  sudo apt install lynx
+ 1088  sudo apt --fix-broken install
+ 1089  sudo apt install lynx
+ 1090  apt-get update
+ 1091  sudo apt-get update
+ 1092  sudo apt install lynx
+ 1093  sudo apt --fix-broken install
+ 1094  sudo apt install lynx
+ 1095  which lynx
+ 1096  lynx google.com
+ 1097  lynx github.com/Poulpy
+ 1098  lynx google.com
+ 1099  cd ../..
+ 1100  cd iatic3
+ 1101  cd Escampe/
+ 1102  less README.md 
+ 1103  make
+ 1104  sudo apt install sdl
+ 1105  lynx google.com
+ 1106  cd ..
+ 1107  ls
+ 1108  cd P2P/
+ 1109  cat README.md 
+ 1110  less README.md 
+ 1111  ant compile
+ 1112  cd -
+ 1113  cd Escampe/
+ 1114  make
+ 1115  cat Makefile 
+ 1116  make
+ 1117  vim README.md 
+ 1118  cat README.md 
+ 1119  sudo apt install libsdl-ttf2.0-dev
+ 1120  make
+ 1121  cat README.md 
+ 1122  ./bin/main 
+ 1123  make
+ 1124  ls
+ 1125  rm gmon.out 
+ 1126  rm analysis.txt 
+ 1127  ls
+ 1128  ls build/
+ 1129  cat Makefile 
+ 1130  ls
+ 1131  ls include/
+ 1132  make clean
+ 1133  make
+ 1134  ./bin/main 
+ 1135  ls
+ 1136  cat Makefile 
+ 1137  ls
+ 1138  rm gmon.out 
+ 1139  make clean
+ 1140  make 
+ 1141  ls
+ 1142  cat README.md 
+ 1143  ls
+ 1144  vim -p src/*c
+ 1145  ls
+ 1146  ./bin/main 
+ 1147  ls
+ 1148  ls include/
+ 1149  vim -p include/*h src/*c
+ 1150  lynx google.com
+ 1151  ant app
+ 1152  ls src/test/
+ 1153  cat README.md 
+ 1154  ls
+ 1155  ls dist/
+ 1156  ls bin/
+ 1157  ls resources/
+ 1158  ls src/
+ 1159  javac src/fr/uvsq/zumu_panchi/App.java -cp src
+ 1160  ls 
+ 1161  ls src/
+ 1162  ls src/fr/uvsq/zumu_panchi/
+ 1163  java src.fr.uvsq.zumu_panchi.App 
+ 1164  java src.fr.uvsq.zumu_panchi.App -cp src
+ 1165  cd src/
+ 1166  java fr.uvsq.zumu_panchi.App 
+ 1167  ls bin
+ 1168  cd ..
+ 1169  ls
+ 1170  ls dist/
+ 1171  cd dist/
+ 1172  java -jar zumu_panchi.jar 
+ 1173  cd ..
+ 1174  ant create_run_jar 
+ 1175  java -jar dist/zumu_panchi.jar 
+ 1176  ant create_run_jar 
+ 1177  java -jar dist/zumu_panchi.jar 
+ 1178  ls
+ 1179  ant dist
+ 1180  less ../build.xml 
+ 1181  ls
+ 1182  cd build/
+ 1183  ls
+ 1184  cd ..
+ 1185  mv build.xml ../build2.xml 
+ 1186  mv ../build.xml .
+ 1187  ant compile
+ 1188  ant build
+ 1189  ls
+ 1190  ls -a
+ 1191  cat .classpath 
+ 1192  javac -cp src src/fr/uvsq/zumu_panchi
+ 1193  javac -cp src src/
+ 1194  javac -cp src src/fr/uvsq/zumu_panchi/App.java 
+ 1195  cd bin
+ 1196  cd ..
+ 1197  ls
+ 1198  ls build
+ 1199  ls
+ 1200  javac -cp build/ src/fr/uvsq/zumu_panchi/App.java 
+ 1201  avac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ test/*.java -d build/
+ 1202  javac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ test/*.java -d build/
+ 1203  javac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ src/test/*.java -d build/
+ 1204  less README.md 
+ 1205  sudo apt install junit5
+ 1206  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:./src/ src/test/*.java -d build/
+ 1207  sudo apt install junit-jupiter-api
+ 1208  sudo apt install junit-jupiter
+ 1209  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1210  javac -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1211  ls build
+ 1212  ls build/test/
+ 1213  java build.test.TestBookshop 
+ 1214  java build.test.TestBookshop -cp src
+ 1215  java build.test.TestBookshop -cp build
+ 1216  cd build
+ 1217  java test.TestBookshop -cp build
+ 1218  cd ..
+ 1219  java org.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1220  java org.junit.runner.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1221  java org.junit5.runner.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1222  java -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1223  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1224  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1225  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./build org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1226  java -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./build org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1227  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1228  ls build
+ 1229  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1230  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1231  less src/test/TestBookshop.java 
+ 1232  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. src/test/*.java -d build/
+ 1233  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1234  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1235  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit.jupiter.runner.JUnitCore build.test.TestBookshop 
+ 1236  mv build.xml build_old.xml
+ 1237  man ant
+ 1238  ant -version
+ 1239  ls src/
+ 1240  ant test.junit.launcher 
+ 1241  ls /usr/share/ant/lib/
+ 1242  cd ..
+ 1243  clear
+ 1244  cd Documents/iatic3
+ 1245  ls
+ 1246  cd Escampe/
+ 1247  git log -n2
+ 1248  vim -p src/*.c
+ 1249  git push origin master
+ 1250  ls
+ 1251  cd ..
+ 1252  ls
+ 1253  cd Zumu-Panchi/
+ 1254  ls
+ 1255  cat README.md 
+ 1256  ant create_run_jar 
+ 1257  java -jar dist/zumu_panchi.jar 
+ 1258  vim build.xml 
+ 1259  vim -p src/fr/uvsq/zumu_panchi/view/*java
+ 1260  vim build.xml 
+ 1261  mv build.xml  ..
+ 1262  vim build.xml
+ 1263  wget https://raw.githubusercontent.com/junit-team/junit5-samples/r5.7.1/junit5-jupiter-starter-ant/build.xml
+ 1264  vim build.xml 
+ 1265  cd ..
+ 1266  clear
+ 1267  ls
+ 1268  cd Documents/
+ 1269  ls
+ 1270  cd iatic4
+ 1271  which likwid-perfctr 
+ 1272  cd aoa
+ 1273  ls
+ 1274  mkdir td
+ 1275  mv l_BaseKit_p_2021.1.0.2659.sh td/
+ 1276  cd td/
+ 1277  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1278  which oneapi
+ 1279  sudo apt -y install cmake pkg-config
+ 1280  ls
+ 1281  cd ..
+ 1282  ls
+ 1283  tar -xvf maqao.intel64.2.12.0.tar.xz 
+ 1284  ls
+ 1285  cd maqao.intel64.2.12.0/
+ 1286  ls
+ 1287  uname -m
+ 1288  which icx
+ 1289  which cmake pkg-config make gcc g++
+ 1290  . ~/intel/oneapi/setvars.sh
+ 1291  Copy Code
+ 1292  . /opt/intel/oneapi/setvars.sh
+ 1293  vim ~/.bashrc 
+ 1294  oneapi-cli
+ 1295  cd ..
+ 1296  ls
+ 1297  cd simple-add/
+ 1298  ls
+ 1299  cat README.md 
+ 1300  ls
+ 1301  make all
+ 1302  less README.md 
+ 1303  ls
+ 1304  cd /opt/intel/oneapi/
+ 1305  ./sys_check.sh
+ 1306  ./sys_check.sh -v
+ 1307  cd
+ 1308  oneapi-cli
+ 1309  ls
+ 1310  cd Documents/
+ 1311  cd matrix-mul/
+ 1312  make all
+ 1313  less Makefile
+ 1314  cd ..
+ 1315  cd iatic4
+ 1316  cd aoa/
+ 1317  cd td
+ 1318  ls
+ 1319  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1320  sudo sh ./l_HPCKit_p_2021.1.0.2684.sh 
+ 1321  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1322  ls
+ 1323  cd ..
+ 1324  ls
+ 1325  cd simple-add/
+ 1326  make all
+ 1327  make run
+ 1328  cat Makefile
+ 1329  cd ../td/
+ 1330  sudo sh ./l_HPCKit_p_2021.1.0.2684.sh 
+ 1331  pulseaudio --start
+ 1332  sudo apt-get install pavucontrol
+ 1333  sudo alsa force-reload
+ 1334  sudo apt-get remove timidity
+ 1335  pulseaudio -k && sudo alsa force-reload
+ 1336  uname
+ 1337  man uname
+ 1338  uname -a
+ 1339  man uname
+ 1340  uname -v
+ 1341  sudo apt-get install -y gpg-agent wget
+ 1342  wget -qO - https://repositories.intel.com/graphics/intel-graphics.key |   sudo apt-key add -
+ 1343  sudo apt-add-repository   'deb [arch=amd64] https://repositories.intel.com/graphics/ubuntu focal main'
+ 1344  sudo apt-get update
+ 1345  sudo apt-get install   intel-opencl-icd   intel-level-zero-gpu level-zero   intel-media-va-driver-non-free libmfx1
+ 1346  lsb_release
+ 1347  lsb_release -a
+ 1348  sudo apt-get update
+ 1349  cat /etc/apt/sources.list
+ 1350  ls /etc/apt/
+ 1351  cd ..
+ 1352  ls
+ 1353  cd ..
+ 1354  ls
+ 1355  ps aux
+ 1356  ls
+ 1357  cd AVL_tree/
+ 1358  git pull origin main
+ 1359  less src/avl_tree.c
+ 1360  git log -n2
+ 1361  man git-status
+ 1362  man git-diff
+ 1363  git diff e5cbe95e7046df3fb197cd19ff987e219b822fb4
+ 1364  git diff 047ea47e72e98137da20c05a1d344cd5926d039e
+ 1365  cat README.md 
+ 1366  make tests
+ 1367  ls README.md 
+ 1368  cat README.md 
+ 1369  make check
+ 1370  vim Makefile 
+ 1371  vim README.md 
+ 1372  ls
+ 1373  vim src/runner.c 
+ 1374  cd Documents/iatic4
+ 1375  cd AVL_tree/
+ 1376  vim Makefile 
+ 1377  make benchmark 
+ 1378  make run_local_benchmark 
+ 1379  make plots 
+ 1380  eog data/plots/plots_09_21_28_28.png 
+ 1381  git commit -am "Added some rules for flexibility"
+ 1382  cd Documents/iatic4/AVL_tree/
+ 1383  eog data/plots/plots_09_21_30_13.png 
+ 1384  vim Makefile 
+ 1385  make benchmark 
+ 1386  vim Documents/iatic4/AVL_tree/Makefile 
+ 1387  lscpu
+ 1388  lsproc
+ 1389  lstopo
+ 1390  clear
+ 1391  cd Downloads/
+ 1392  ls
+ 1393  unzip pdf2png.zip 
+ 1394  ls
+ 1395  eob print/print-1.png 
+ 1396  eog print/print-1.png 
+ 1397  mv print/print-1.png ../Documents/iatic4/AVL_tree/data/massif_visual.pgn
+ 1398  mv print/print-1.png ../Documents/iatic4/AVL_tree/data/massif_visual.png
+ 1399  cd Documents/iatic4/AVL_tree/
+ 1400  vim -p Makefile ./.github/workflows/c-cpp.yml 
+ 1401  git commit -am "Update github workflow + add plots"
+ 1402  git status
+ 1403  git add data/plots/plots_09_21_*
+ 1404  git commit -am "Add the plots :')"
+ 1405  git push origin main
+ 1406  vim Makefile 
+ 1407  which valgrind
+ 1408  sudo apt install valgrind
+ 1409  vim Makefile 
+ 1410  ls
+ 1411  ms_print massif.out.33493 
+ 1412  rm massif.out.33307 
+ 1413  ms_print massif.out.33493 | head -n100
+ 1414  ms_print massif.out.33493
+ 1415  which massif-visualizer
+ 1416  sudo apt install massif-visualizer
+ 1417  which massif-visualizer
+ 1418  massif-visualizer massif.out.33493 
+ 1419  ls
+ 1420  mv print.pdf data/
+ 1421  ls
+ 1422  rm iia.o 
+ 1423  rm stack.o 
+ 1424  mv massif.out.33493 data/
+ 1425  ls
+ 1426  git status
+ 1427  git add data/massif.out.33493 
+ 1428  git add data/print.pdf 
+ 1429  git commit -am "Add massif analysis"
+ 1430  git push origin main
+ 1431  clear
+ 1432  mv data/massif_visual.pgn data/massif_visual.png
+ 1433  git status
+ 1434  git add data/massif_visual.png 
+ 1435  git commit -am "Add massif visual as png"
+ 1436  git push origin main
+ 1437  cd Documents/iatic4/AVL_tree/
+ 1438  make run_local_benchmark 
+ 1439  make plots
+ 1440  make run_local_benchmark 
+ 1441  make plots
+ 1442  make run_local_benchmark 
+ 1443  make plots
+ 1444  make run_local_benchmark 
+ 1445  make plots 
+ 1446  make massif_analysis 
+ 1447  cd Documents/iatic4/
+ 1448  ls
+ 1449  git diff
+ 1450  make
+ 1451  ./a.out 
+ 1452  make
+ 1453  ./a.out 
+ 1454  make
+ 1455  ./a.out 
+ 1456  make
+ 1457  ./a.out 
+ 1458  make
+ 1459  ./a.out 
+ 1460  make
+ 1461  ./a.out 
+ 1462  make
+ 1463  ./a.out 
+ 1464  make
+ 1465  ./a.out 
+ 1466  git commit -am "On va dire y a une erreur de segmentation"
+ 1467  git log
+ 1468  git checkout ef0dc7478a2cd2c9935214308f061cca1f53e9b3
+ 1469  git checkout master
+ 1470  git reset --hard ef0dc7478a2cd2c9935214308f061cca1f53e9b3
+ 1471  git push origin master
+ 1472  make
+ 1473  man 2 fork
+ 1474  make
+ 1475  man wait
+ 1476  make
+ 1477  ./a.out 
+ 1478  make
+ 1479  ./a.out 
+ 1480  git commit -am "Question 6 : 2 processus avec fork"
+ 1481  git status
+ 1482  man 2 write
+ 1483  make
+ 1484  ./a.out
+ 1485  git commit -a
+ 1486  make
+ 1487  ls
+ 1488  ls TP1/
+ 1489  rm a.out 
+ 1490  mv Makefile TP1/
+ 1491  mv test.c TP1/
+ 1492  git status
+ 1493  git add TP1/
+ 1494  git commit -am "Oups mauvais répertoire"
+ 1495  cd TP1/
+ 1496  make
+ 1497  ./a.out 
+ 1498  ./a.out &
+ 1499  pstree
+ 1500  ./a.out &
+ 1501  pstree
+ 1502  ./a.out &
+ 1503  pstree
+ 1504  git status
+ 1505  git commit -am "Question 8 : 4 processus en tout"
+ 1506  make
+ 1507  ./a.out 
+ 1508  make
+ 1509  ./a.out 
+ 1510  make
+ 1511  ./a.out 
+ 1512  git status
+ 1513  git commit -am "Question 9 : usage de rand()"
+ 1514  make
+ 1515  ./a.out 
+ 1516  git commit -am "Question 10 : le père gère la première la fils la seconde"
+ 1517  make
+ 1518  ./a.out 
+ 1519  make
+ 1520  ./a.out 
+ 1521  ./a.out 2
+ 1522  ./a.out 3
+ 1523  git commit -am "Question 11 : gestion d'un tableau par plusieurs processus"
+ 1524  git push origin master 
+ 1525  cd ..
+ 1526  mkdir MP1
+ 1527  cd MP1/
+ 1528  cd ..
+ 1529  cd TP1/
+ 1530  make
+ 1531  ./a.out 3
+ 1532  git commit -am "Question 10 : ajout d'un wait + break"
+ 1533  cd ..
+ 1534  cd MP1/
+ 1535  ls
+ 1536  rm Makefile 
+ 1537  cp ../../../AVL_tree/Makefile .
+ 1538  make
+ 1539  man fgets
+ 1540  make
+ 1541  man fgets
+ 1542  make
+ 1543  ls
+ 1544  rm build/*
+ 1545  rm bin/*
+ 1546  make
+ 1547  less ../../../AVL_tree/Makefile 
+ 1548  make
+ 1549  ./bin/a.out 
+ 1550  make
+ 1551  ./bin/a.out 
+ 1552  git status
+ 1553  git add .
+ 1554  git status
+ 1555  git rm --cached bin
+ 1556  git rm --cached -r bin
+ 1557  git rm --cached -r build
+ 1558  git rm --cached -r src/*swp
+ 1559  git rm --cached -r *swp
+ 1560  git status
+ 1561  git commit 
+ 1562  make
+ 1563  ./bin/a.out 
+ 1564  man strchr
+ 1565  make
+ 1566  ./bin/a.out 
+ 1567  git commit
+ 1568  git status
+ 1569  git commit
+ 1570  git commit -a
+ 1571  ./bin/a.out 
+ 1572  git commit -am "mishell Question 1 : Documentation"
+ 1573  make
+ 1574  ./bin/a.out 
+ 1575  valgrind ./bin/a.out 
+ 1576  make
+ 1577  valgrind ./bin/a.out 
+ 1578  git commit -a
+ 1579  git push origin master 
+ 1580  make
+ 1581  ./bin/a.out 
+ 1582  git commit -a "mishell : Cleaning"
+ 1583  git commit -a
+ 1584  make
+ 1585  ./bin/a.out 
+ 1586  git commit -a
+ 1587  make
+ 1588  ./bin/a.out 
+ 1589  git commit -am "mishell: nettoyage"
+ 1590  man chdir
+ 1591  man getcwd
+ 1592  make
+ 1593  make clean
+ 1594  make
+ 1595  ./bin/a.out 
+ 1596  git status
+ 1597  git commit
+ 1598  git commit -a
+ 1599  ./bin/a.out 
+ 1600  make
+ 1601  make clean 
+ 1602  make
+ 1603  ./bin/a.out 
+ 1604  make
+ 1605  man getenv
+ 1606  make
+ 1607  make clean 
+ 1608  make
+ 1609  ./bin/a.out 
+ 1610  git commit -a
+ 1611  git commit -am "mishell : documentation"
+ 1612  git push origin master 
+ 1613  cd Documents/iatic4/
+ 1614  mkdir sea
+ 1615  cd sea/
+ 1616  mman getcwd
+ 1617  man getcwd
+ 1618  man chdir
+ 1619  git clone http://gitlab-chps.ens.uvsq.fr/sea/paul-repain.git
+ 1620  ls
+ 1621  cd paul-repain/
+ 1622  ls
+ 1623  ls -a
+ 1624  mkdir TP1;cd TP1
+ 1625  ls .git/
+ 1626  cd ..
+ 1627  cat .git/config 
+ 1628  cat .git/info/
+ 1629  cat .git/info/exclude 
+ 1630  ls
+ 1631  ls .git
+ 1632  git config user.email "paul.repain@ens.uvsq.fr"
+ 1633  git status
+ 1634  git config user.name "Paul Repain"
+ 1635  vim test.c
+ 1636  vim Makefile
+ 1637  vim .gitignore 
+ 1638  make
+ 1639  ./a.out 
+ 1640  git status
+ 1641  git add Makefile test.c 
+ 1642  git commit
+ 1643  vim test.c 
+ 1644  cd TP1/
+ 1645  vim Makefile test.c -p
+ 1646  cd ..
+ 1647  cd MP1/
+ 1648  touch Makefile
+ 1649  mkdir src
+ 1650  mkdir bin
+ 1651  ls
+ 1652  vim src/shell.c
+ 1653  touch src/main.c src/shell.h
+ 1654  vim -p *[ch]
+ 1655  vim -p *.[ch]
+ 1656  vim -p src/*.[ch]
+ 1657  lstopo
+ 1658  lynx google.com
+ 1659  sudo apt install r-base
+ 1660  which R
+ 1661  R
+ 1662  man open
+ 1663  git commit -a
+ 1664  man open
+ 1665  git commit -a
+ 1666  echo "pijp 
+ 1667  "
+ 1668  echo "pij     
+ 1669  ezf  
+ 1670  fzef  
+ 1671     ef"
+ 1672  make
+ 1673  valgrind ./bin/a.out 
+ 1674  Rgit diff
+ 1675  git diff
+ 1676  cat Makefile 
+ 1677  make tests
+ 1678  ./bin/strutils_test 
+ 1679  make tests
+ 1680  valgrind ./bin/strutils_test 
+ 1681  make tests
+ 1682  valgrind ./bin/strutils_test 
+ 1683  man strcpy
+ 1684  make tests
+ 1685  valgrind ./bin/strutils_test 
+ 1686  make tests
+ 1687  valgrind ./bin/strutils_test 
+ 1688  make tests
+ 1689  valgrind ./bin/strutils_test 
+ 1690  gcc -v
+ 1691  man strcpy
+ 1692  make tests
+ 1693  valgrind ./bin/strutils_test 
+ 1694  make tests
+ 1695  ./bin/strutils_test 
+ 1696  make tests
+ 1697  ./bin/strutils_test 
+ 1698  valgrind ./bin/strutils_test 
+ 1699  make tests
+ 1700  valgrind ./bin/strutils_test 
+ 1701  make tests
+ 1702  valgrind ./bin/strutils_test 
+ 1703  make tests
+ 1704  valgrind ./bin/strutils_test 
+ 1705  make tests
+ 1706  valgrind ./bin/strutils_test 
+ 1707  make tests
+ 1708  make clean
+ 1709  make tests
+ 1710  valgrind ./bin/strutils_test 
+ 1711  make tests
+ 1712  valgrind ./bin/strutils_test 
+ 1713  make tests
+ 1714  valgrind ./bin/strutils_test 
+ 1715  make tests
+ 1716  valgrind ./bin/strutils_test 
+ 1717  ssh -X 21802524@einstein.isty.uvsq.fr
+ 1718  ssh -X 21700125@einstein.isty.uvsq.fr
+ 1719  ls
+ 1720  cd Documents/
+ 1721  ls
+ 1722  cd iatic4
+ 1723  ls
+ 1724  cd sea/paul-repain/
+ 1725  ls
+ 1726  git pull origin master 
+ 1727  git log -2
+ 1728  cd MP1/
+ 1729  make
+ 1730  ./bin/a.out 
+ 1731  git checkout -b refactor
+ 1732  make
+ 1733  ./bin/a.out 
+ 1734  make
+ 1735  ./bin/a.out 
+ 1736  make
+ 1737  ./bin/a.out 
+ 1738  make
+ 1739  ./bin/a.out 
+ 1740  make clean
+ 1741  make
+ 1742  ./bin/a.out 
+ 1743  make
+ 1744  ./bin/a.out 
+ 1745  ls
+ 1746  rm '"' 
+ 1747  make
+ 1748  make clean
+ 1749  make
+ 1750  clear
+ 1751  make
+ 1752  make tests
+ 1753  make clean
+ 1754  make tests
+ 1755  ./bin/strutils_test 
+ 1756  valgrind ./bin/strutils_test 
+ 1757  make tests
+ 1758  cd Documents/iatic4/sea/paul-repain/
+ 1759  cd MP1/
+ 1760  ls
+ 1761  cd ..
+ 1762  cd -
+ 1763  ls
+ 1764  vim ../.gitignore 
+ 1765  vim -p src/*[ch]
+ 1766  git status
+ 1767  ls
+ 1768  make tests
+ 1769  make clean
+ 1770  make tests
+ 1771  ./bin/strutils_test 
+ 1772  make tests
+ 1773  ./bin/strutils_test 
+ 1774  make tests
+ 1775  ./bin/strutils_test 
+ 1776  make tests
+ 1777  ./bin/strutils_test 
+ 1778  valgrind ./bin/strutils_test 
+ 1779  make tests
+ 1780  valgrind ./bin/strutils_test 
+ 1781  make tests
+ 1782  valgrind ./bin/strutils_test 
+ 1783  make tests
+ 1784  valgrind ./bin/strutils_test 
+ 1785  make tests
+ 1786  make clean
+ 1787  make tests
+ 1788  make clean
+ 1789  make tests
+ 1790  make clean
+ 1791  make tests
+ 1792  ./bin/strutils_test 
+ 1793  make tests
+ 1794  ./bin/strutils_test 
+ 1795  make tests
+ 1796  ./bin/strutils_test 
+ 1797  make tests
+ 1798  ./bin/strutils_test 
+ 1799  make tests
+ 1800  ./bin/strutils_test 
+ 1801  make tests
+ 1802  ./bin/strutils_test 
+ 1803  make tests
+ 1804  ./bin/strutils_test 
+ 1805  make tests
+ 1806  ./bin/strutils_test 
+ 1807  make tests
+ 1808  ./bin/strutils_test 
+ 1809  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ 1810  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+ 1811  php composer-setup.php --install-dir /usr/bin --filename composer 
+ 1812  sudo php composer-setup.php --install-dir /usr/bin --filename composer 
+ 1813  php -r "unlink('composer-setup.php');"
+ 1814  clear
+ 1815  ls
+ 1816  ls -a
+ 1817  cat .gitignore 
+ 1818  cd
+ 1819  ls -a
+ 1820  vim .bashrc 
+ 1821  php -S localhost:8000 -t public
+ 1822  composer update -vvv
+ 1823  composer -help
+ 1824  composer --version
+ 1825  composer self-update --2
+ 1826  which composer
+ 1827  php -S localhost:8000 -t public
+ 1828  sudo apt remove composer
+ 1829  composer update -vvv
+ 1830  sudo apt install php-9
+ 1831  sudo apt install php-9.3
+ 1832  sudo apt install php9.5
+ 1833  sudo apt-get install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+ 1834  apt-cache search --names-only ^php
+ 1835  composer update -vvv
+ 1836  php -S localhost:8000 -t public
+ 1837  echo "php -S localhost:8000 -t public" >> README.md
+ 1838  man strcmp
+ 1839  make tests 
+ 1840  man strcmp
+ 1841  make tests 
+ 1842  man strcmp
+ 1843  make tests 
+ 1844  ./bin/strutils_test 
+ 1845  make tests 
+ 1846  ./bin/strutils_test 
+ 1847  make tests 
+ 1848  ./bin/strutils_test 
+ 1849  man malloc
+ 1850  man strcmp
+ 1851  make tests 
+ 1852  ./bin/strutils_test 
+ 1853  make tests 
+ 1854  ./bin/strutils_test 
+ 1855  make tests 
+ 1856  ./bin/strutils_test 
+ 1857  cd Documents/iatic4
+ 1858  ls
+ 1859  cd sea/paul-repain/
+ 1860  cd MP1/
+ 1861  vim -p src/*[ch] tests/*c
+ 1862  make tests 
+ 1863  valgrind ./bin/strutils_test 
+ 1864  ./bin/strutils_test 
+ 1865  valgrind ./bin/strutils_test 
+ 1866  ./bin/strutils_test 
+ 1867  make tests 
+ 1868  ./bin/strutils_test 
+ 1869  valgrind ./bin/strutils_test 
+ 1870  ./bin/strutils_test 
+ 1871  make tests 
+ 1872  ./bin/strutils_test 
+ 1873  valgrind ./bin/strutils_test 
+ 1874  valgrind -s ./bin/strutils_test 
+ 1875  make tests 
+ 1876  git status
+ 1877  git commit -a
+ 1878  make tests 
+ 1879  ./bin/strutils_test 
+ 1880  valgrind ./bin/strutils_test 
+ 1881  man git-commit
+ 1882  git config --global core.editor "vim"
+ 1883  git commit -a
+ 1884  make tests 
+ 1885  ./bin/strutils_test 
+ 1886  python3
+ 1887  make tests 
+ 1888  ./bin/strutils_test 
+ 1889  valgrind ./bin/strutils_test 
+ 1890  git commit 
+ 1891  git commit -a
+ 1892  git branch
+ 1893  make
+ 1894  ./mishell 
+ 1895  make
+ 1896  make clean
+ 1897  make
+ 1898  ./mishell 
+ 1899  ls bin
+ 1900  make
+ 1901  ./bin/mishell 
+ 1902  make
+ 1903  ./bin/mishell 
+ 1904  make
+ 1905  ./bin/mishell 
+ 1906  make
+ 1907  ./bin/mishell 
+ 1908  git commit -a
+ 1909  make
+ 1910  valgrind ./bin/mishell 
+ 1911  make
+ 1912  make clean
+ 1913  make
+ 1914  git commit -a
+ 1915  make
+ 1916  ./bin/mishell 
+ 1917  make
+ 1918  ./bin/mishell 
+ 1919  cd "$OLDPWD"
+ 1920  cd -
+ 1921  cd ..
+ 1922  cd "$OLDPWD"
+ 1923  make
+ 1924  ./bin/mishell 
+ 1925  git diff
+ 1926  git commit -am "Cleaning debug"
+ 1927  cat README.md 
+ 1928  cat ../../../AVL_tree/README.md 
+ 1929  echo 'find * -name *.[ch] -type f | xargs grep -n TODO' >> RE
+ 1930  find * -name *.[ch] -type f | xargs grep -n TODO
+ 1931  git checkout master 
+ 1932  git merge -
+ 1933  git push origin master
+ 1934  git checkout -
+ 1935  make
+ 1936  valgrind ./bin/mishell 
+ 1937  make
+ 1938  ./bin/mishell 
+ 1939  make
+ 1940  ./bin/mishell 
+ 1941  make
+ 1942  ./bin/mishell 
+ 1943  make
+ 1944  ./bin/mishell 
+ 1945  make
+ 1946  ./bin/mishell 
+ 1947  make
+ 1948  ./bin/mishell 
+ 1949  git commit -a
+ 1950  make
+ 1951  ./bin/mishell 
+ 1952  valgrind ./bin/mishell 
+ 1953  ./bin/mishell 
+ 1954  make
+ 1955  git commit -a
+ 1956  git checkout -
+ 1957  git merge -
+ 1958  cat README.md 
+ 1959  git push origin master
+ 1960  git checkout -b background_task
+ 1961  find * -name *.[ch] -type f | wc -l
+ 1962  find * -name *.[ch] -type f | xargs cat * | wc -l
+ 1963  wc -l *[ch]
+ 1964  wc -l */*[ch]
+ 1965  make
+ 1966  make clean
+ 1967  make
+ 1968  ./bin/mishell 
+ 1969  make
+ 1970  ./bin/mishell 
+ 1971  make
+ 1972  ./bin/mishell 
+ 1973  make
+ 1974  ./bin/mishell 
+ 1975  make
+ 1976  ./bin/mishell 
+ 1977  make
+ 1978  ./bin/mishell 
+ 1979  make
+ 1980  ./bin/mishell 
+ 1981  make
+ 1982  ./bin/mishell 
+ 1983  make
+ 1984  ./bin/mishell 
+ 1985  make
+ 1986  ./bin/mishell 
+ 1987  ps
+ 1988  ./bin/mishell 
+ 1989  make
+ 1990  ./bin/mishell 
+ 1991  man wait 2
+ 1992  make
+ 1993  ./bin/mishell 
+ 1994  p
+ 1995  ps
+ 1996  cd Documents/iatic4/sea/paul-repain/MP1/
+ 1997  vim -p src/*[ch] tests/*c
+ 1998  lynx localhost:8000
+ 1999  cd Documents/paul/
+ 2000  ls
+ 2001  man tar
+ 2002  tar -vzf na
+ 2003  man tar
+ 2004  ls
+ 2005  which gunzip
+ 2006  gunzip name.basics.tsv.gz 
+ 2007  ls
+ 2008  ls -l
+ 2009  ls -lh
+ 2010  cd imdb_api/imdb_api/
+ 2011  head ../../name.basics.tsv 
+ 2012  git init
+ 2013  git commit -am "Initial commit"
+ 2014  git add *
+ 2015  git commit -am "Initial commit"
+ 2016  head ../../name.basics.tsv 
+ 2017  php artisan make:migration create_name_basics_table
+ 2018  vim database/migrations/2021_02_27_163023_create_name_basics_table.php 
+ 2019  ls
+ 2020  ls * -r
+ 2021  vim phpunit.xml 
+ 2022  vim bootstrap/app.php 
+ 2023  ls
+ 2024  vim bootstrap/app.php 
+ 2025  vim .env
+ 2026  php artisan make:migration create_name_basics_table
+ 2027  vim .env
+ 2028  touch database/dev.sqlite
+ 2029  vim .env
+ 2030  vim bootstrap/app.php 
+ 2031  history > .history.txt
+ 1029  ls
+ 1030  ant create_run_jar 
+ 1031  cat README.md 
+ 1032  java -jar dist/zumu_panchi.jar 
+ 1033  ls
+ 1034  less src/fr/uvsq/zumu_panchi/App.java 
+ 1035  less README.md 
+ 1036  ant init
+ 1037  ls bin/
+ 1038  ant app
+ 1039  ant build
+ 1040  ant --version
+ 1041  ant -v
+ 1042  ls
+ 1043  java -jar dist/zumu_panchi.jar 
+ 1044  ant app
+ 1045  javac -cp=src src/fr/uvsq/zumu_panchi/App.java 
+ 1046  javac -cp:src src/fr/uvsq/zumu_panchi/App.java 
+ 1047  man javac
+ 1048  javac -cp src src/fr/uvsq/zumu_panchi/App.java 
+ 1049  ls
+ 1050  java src.fr.uvsq.zumu_panchi.App 
+ 1051  java -cp src fr.uvsq.zumu_panchi.App 
+ 1052  cd src/
+ 1053  java fr.uvsq.zumu_panchi.App 
+ 1054  cd ..
+ 1055  libsdl2-dev
+ 1056  sudo apt install libsdl2-dev
+ 1057  sudo apt install libsdl-dev
+ 1058  cd ../Escampe/
+ 1059  ls
+ 1060  ls src/
+ 1061  make clean
+ 1062  make 
+ 1063  ls include/
+ 1064  ls
+ 1065  make 
+ 1066  make clean
+ 1067  make 
+ 1068  make clean
+ 1069  make 
+ 1070  ./bin/main 
+ 1071  git status
+ 1072  make clean
+ 1073  git status
+ 1074  l
+ 1075  ls
+ 1076  head gmon.out 
+ 1077  clear
+ 1078  make clean
+ 1079  make 
+ 1080  ./bin/main 
+ 1081  ls
+ 1082  make clean
+ 1083  ls
+ 1084  git status
+ 1085  git commit -am "Clean"
+ 1086  git push origin master
+ 1087  sudo apt install lynx
+ 1088  sudo apt --fix-broken install
+ 1089  sudo apt install lynx
+ 1090  apt-get update
+ 1091  sudo apt-get update
+ 1092  sudo apt install lynx
+ 1093  sudo apt --fix-broken install
+ 1094  sudo apt install lynx
+ 1095  which lynx
+ 1096  lynx google.com
+ 1097  lynx github.com/Poulpy
+ 1098  lynx google.com
+ 1099  cd ../..
+ 1100  cd iatic3
+ 1101  cd Escampe/
+ 1102  less README.md 
+ 1103  make
+ 1104  sudo apt install sdl
+ 1105  lynx google.com
+ 1106  cd ..
+ 1107  ls
+ 1108  cd P2P/
+ 1109  cat README.md 
+ 1110  less README.md 
+ 1111  ant compile
+ 1112  cd -
+ 1113  cd Escampe/
+ 1114  make
+ 1115  cat Makefile 
+ 1116  make
+ 1117  vim README.md 
+ 1118  cat README.md 
+ 1119  sudo apt install libsdl-ttf2.0-dev
+ 1120  make
+ 1121  cat README.md 
+ 1122  ./bin/main 
+ 1123  make
+ 1124  ls
+ 1125  rm gmon.out 
+ 1126  rm analysis.txt 
+ 1127  ls
+ 1128  ls build/
+ 1129  cat Makefile 
+ 1130  ls
+ 1131  ls include/
+ 1132  make clean
+ 1133  make
+ 1134  ./bin/main 
+ 1135  ls
+ 1136  cat Makefile 
+ 1137  ls
+ 1138  rm gmon.out 
+ 1139  make clean
+ 1140  make 
+ 1141  ls
+ 1142  cat README.md 
+ 1143  ls
+ 1144  vim -p src/*c
+ 1145  ls
+ 1146  ./bin/main 
+ 1147  ls
+ 1148  ls include/
+ 1149  vim -p include/*h src/*c
+ 1150  lynx google.com
+ 1151  ant app
+ 1152  ls src/test/
+ 1153  cat README.md 
+ 1154  ls
+ 1155  ls dist/
+ 1156  ls bin/
+ 1157  ls resources/
+ 1158  ls src/
+ 1159  javac src/fr/uvsq/zumu_panchi/App.java -cp src
+ 1160  ls 
+ 1161  ls src/
+ 1162  ls src/fr/uvsq/zumu_panchi/
+ 1163  java src.fr.uvsq.zumu_panchi.App 
+ 1164  java src.fr.uvsq.zumu_panchi.App -cp src
+ 1165  cd src/
+ 1166  java fr.uvsq.zumu_panchi.App 
+ 1167  ls bin
+ 1168  cd ..
+ 1169  ls
+ 1170  ls dist/
+ 1171  cd dist/
+ 1172  java -jar zumu_panchi.jar 
+ 1173  cd ..
+ 1174  ant create_run_jar 
+ 1175  java -jar dist/zumu_panchi.jar 
+ 1176  ant create_run_jar 
+ 1177  java -jar dist/zumu_panchi.jar 
+ 1178  ls
+ 1179  ant dist
+ 1180  less ../build.xml 
+ 1181  ls
+ 1182  cd build/
+ 1183  ls
+ 1184  cd ..
+ 1185  mv build.xml ../build2.xml 
+ 1186  mv ../build.xml .
+ 1187  ant compile
+ 1188  ant build
+ 1189  ls
+ 1190  ls -a
+ 1191  cat .classpath 
+ 1192  javac -cp src src/fr/uvsq/zumu_panchi
+ 1193  javac -cp src src/
+ 1194  javac -cp src src/fr/uvsq/zumu_panchi/App.java 
+ 1195  cd bin
+ 1196  cd ..
+ 1197  ls
+ 1198  ls build
+ 1199  ls
+ 1200  javac -cp build/ src/fr/uvsq/zumu_panchi/App.java 
+ 1201  avac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ test/*.java -d build/
+ 1202  javac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ test/*.java -d build/
+ 1203  javac -cp /usr/share/java/junit4.jar:/usr/share/java/hamcrest-core.jar:./src/ src/test/*.java -d build/
+ 1204  less README.md 
+ 1205  sudo apt install junit5
+ 1206  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:./src/ src/test/*.java -d build/
+ 1207  sudo apt install junit-jupiter-api
+ 1208  sudo apt install junit-jupiter
+ 1209  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1210  javac -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1211  ls build
+ 1212  ls build/test/
+ 1213  java build.test.TestBookshop 
+ 1214  java build.test.TestBookshop -cp src
+ 1215  java build.test.TestBookshop -cp build
+ 1216  cd build
+ 1217  java test.TestBookshop -cp build
+ 1218  cd ..
+ 1219  java org.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1220  java org.junit.runner.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1221  java org.junit5.runner.JUnitCore build.test.TestBookshop -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/
+ 1222  java -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1223  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1224  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1225  java -cp /usr/share/java/junit.jar:/usr/share/java/junit-jupiter-api.jar:./build org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1226  java -cp /usr/share/java/junit5.jar:/usr/share/java/junit-jupiter-api.jar:./build org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1227  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ src/test/*.java -d build/
+ 1228  ls build
+ 1229  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1230  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/ org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1231  less src/test/TestBookshop.java 
+ 1232  javac -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. src/test/*.java -d build/
+ 1233  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit5.runner.JUnitCore build.test.TestBookshop 
+ 1234  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit.runner.JUnitCore build.test.TestBookshop 
+ 1235  java -cp /usr/share/java/junit5.jar:/usr/share/java/hamcrest-core.jar:/usr/share/java/junit-jupiter-api.jar:./src/:. org.junit.jupiter.runner.JUnitCore build.test.TestBookshop 
+ 1236  mv build.xml build_old.xml
+ 1237  man ant
+ 1238  ant -version
+ 1239  ls src/
+ 1240  ant test.junit.launcher 
+ 1241  ls /usr/share/ant/lib/
+ 1242  cd ..
+ 1243  clear
+ 1244  cd Documents/iatic3
+ 1245  ls
+ 1246  cd Escampe/
+ 1247  git log -n2
+ 1248  vim -p src/*.c
+ 1249  git push origin master
+ 1250  ls
+ 1251  cd ..
+ 1252  ls
+ 1253  cd Zumu-Panchi/
+ 1254  ls
+ 1255  cat README.md 
+ 1256  ant create_run_jar 
+ 1257  java -jar dist/zumu_panchi.jar 
+ 1258  vim build.xml 
+ 1259  vim -p src/fr/uvsq/zumu_panchi/view/*java
+ 1260  vim build.xml 
+ 1261  mv build.xml  ..
+ 1262  vim build.xml
+ 1263  wget https://raw.githubusercontent.com/junit-team/junit5-samples/r5.7.1/junit5-jupiter-starter-ant/build.xml
+ 1264  vim build.xml 
+ 1265  cd ..
+ 1266  clear
+ 1267  ls
+ 1268  cd Documents/
+ 1269  ls
+ 1270  cd iatic4
+ 1271  which likwid-perfctr 
+ 1272  cd aoa
+ 1273  ls
+ 1274  mkdir td
+ 1275  mv l_BaseKit_p_2021.1.0.2659.sh td/
+ 1276  cd td/
+ 1277  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1278  which oneapi
+ 1279  sudo apt -y install cmake pkg-config
+ 1280  ls
+ 1281  cd ..
+ 1282  ls
+ 1283  tar -xvf maqao.intel64.2.12.0.tar.xz 
+ 1284  ls
+ 1285  cd maqao.intel64.2.12.0/
+ 1286  ls
+ 1287  uname -m
+ 1288  which icx
+ 1289  which cmake pkg-config make gcc g++
+ 1290  . ~/intel/oneapi/setvars.sh
+ 1291  Copy Code
+ 1292  . /opt/intel/oneapi/setvars.sh
+ 1293  vim ~/.bashrc 
+ 1294  oneapi-cli
+ 1295  cd ..
+ 1296  ls
+ 1297  cd simple-add/
+ 1298  ls
+ 1299  cat README.md 
+ 1300  ls
+ 1301  make all
+ 1302  less README.md 
+ 1303  ls
+ 1304  cd /opt/intel/oneapi/
+ 1305  ./sys_check.sh
+ 1306  ./sys_check.sh -v
+ 1307  cd
+ 1308  oneapi-cli
+ 1309  ls
+ 1310  cd Documents/
+ 1311  cd matrix-mul/
+ 1312  make all
+ 1313  less Makefile
+ 1314  cd ..
+ 1315  cd iatic4
+ 1316  cd aoa/
+ 1317  cd td
+ 1318  ls
+ 1319  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1320  sudo sh ./l_HPCKit_p_2021.1.0.2684.sh 
+ 1321  sudo sh ./l_BaseKit_p_2021.1.0.2659.sh 
+ 1322  ls
+ 1323  cd ..
+ 1324  ls
+ 1325  cd simple-add/
+ 1326  make all
+ 1327  make run
+ 1328  cat Makefile
+ 1329  cd ../td/
+ 1330  sudo sh ./l_HPCKit_p_2021.1.0.2684.sh 
+ 1331  pulseaudio --start
+ 1332  sudo apt-get install pavucontrol
+ 1333  sudo alsa force-reload
+ 1334  sudo apt-get remove timidity
+ 1335  pulseaudio -k && sudo alsa force-reload
+ 1336  uname
+ 1337  man uname
+ 1338  uname -a
+ 1339  man uname
+ 1340  uname -v
+ 1341  sudo apt-get install -y gpg-agent wget
+ 1342  wget -qO - https://repositories.intel.com/graphics/intel-graphics.key |   sudo apt-key add -
+ 1343  sudo apt-add-repository   'deb [arch=amd64] https://repositories.intel.com/graphics/ubuntu focal main'
+ 1344  sudo apt-get update
+ 1345  sudo apt-get install   intel-opencl-icd   intel-level-zero-gpu level-zero   intel-media-va-driver-non-free libmfx1
+ 1346  lsb_release
+ 1347  lsb_release -a
+ 1348  sudo apt-get update
+ 1349  cat /etc/apt/sources.list
+ 1350  ls /etc/apt/
+ 1351  cd ..
+ 1352  ls
+ 1353  cd ..
+ 1354  ls
+ 1355  ps aux
+ 1356  ls
+ 1357  cd AVL_tree/
+ 1358  git pull origin main
+ 1359  less src/avl_tree.c
+ 1360  git log -n2
+ 1361  man git-status
+ 1362  man git-diff
+ 1363  git diff e5cbe95e7046df3fb197cd19ff987e219b822fb4
+ 1364  git diff 047ea47e72e98137da20c05a1d344cd5926d039e
+ 1365  cat README.md 
+ 1366  make tests
+ 1367  ls README.md 
+ 1368  cat README.md 
+ 1369  make check
+ 1370  vim Makefile 
+ 1371  vim README.md 
+ 1372  ls
+ 1373  vim src/runner.c 
+ 1374  cd Documents/iatic4
+ 1375  cd AVL_tree/
+ 1376  vim Makefile 
+ 1377  make benchmark 
+ 1378  make run_local_benchmark 
+ 1379  make plots 
+ 1380  eog data/plots/plots_09_21_28_28.png 
+ 1381  git commit -am "Added some rules for flexibility"
+ 1382  cd Documents/iatic4/AVL_tree/
+ 1383  eog data/plots/plots_09_21_30_13.png 
+ 1384  vim Makefile 
+ 1385  make benchmark 
+ 1386  vim Documents/iatic4/AVL_tree/Makefile 
+ 1387  lscpu
+ 1388  lsproc
+ 1389  lstopo
+ 1390  clear
+ 1391  cd Downloads/
+ 1392  ls
+ 1393  unzip pdf2png.zip 
+ 1394  ls
+ 1395  eob print/print-1.png 
+ 1396  eog print/print-1.png 
+ 1397  mv print/print-1.png ../Documents/iatic4/AVL_tree/data/massif_visual.pgn
+ 1398  mv print/print-1.png ../Documents/iatic4/AVL_tree/data/massif_visual.png
+ 1399  cd Documents/iatic4/AVL_tree/
+ 1400  vim -p Makefile ./.github/workflows/c-cpp.yml 
+ 1401  git commit -am "Update github workflow + add plots"
+ 1402  git status
+ 1403  git add data/plots/plots_09_21_*
+ 1404  git commit -am "Add the plots :')"
+ 1405  git push origin main
+ 1406  vim Makefile 
+ 1407  which valgrind
+ 1408  sudo apt install valgrind
+ 1409  vim Makefile 
+ 1410  ls
+ 1411  ms_print massif.out.33493 
+ 1412  rm massif.out.33307 
+ 1413  ms_print massif.out.33493 | head -n100
+ 1414  ms_print massif.out.33493
+ 1415  which massif-visualizer
+ 1416  sudo apt install massif-visualizer
+ 1417  which massif-visualizer
+ 1418  massif-visualizer massif.out.33493 
+ 1419  ls
+ 1420  mv print.pdf data/
+ 1421  ls
+ 1422  rm iia.o 
+ 1423  rm stack.o 
+ 1424  mv massif.out.33493 data/
+ 1425  ls
+ 1426  git status
+ 1427  git add data/massif.out.33493 
+ 1428  git add data/print.pdf 
+ 1429  git commit -am "Add massif analysis"
+ 1430  git push origin main
+ 1431  clear
+ 1432  mv data/massif_visual.pgn data/massif_visual.png
+ 1433  git status
+ 1434  git add data/massif_visual.png 
+ 1435  git commit -am "Add massif visual as png"
+ 1436  git push origin main
+ 1437  cd Documents/iatic4/AVL_tree/
+ 1438  make run_local_benchmark 
+ 1439  make plots
+ 1440  make run_local_benchmark 
+ 1441  make plots
+ 1442  make run_local_benchmark 
+ 1443  make plots
+ 1444  make run_local_benchmark 
+ 1445  make plots 
+ 1446  make massif_analysis 
+ 1447  cd Documents/iatic4/
+ 1448  ls
+ 1449  git diff
+ 1450  make
+ 1451  ./a.out 
+ 1452  make
+ 1453  ./a.out 
+ 1454  make
+ 1455  ./a.out 
+ 1456  make
+ 1457  ./a.out 
+ 1458  make
+ 1459  ./a.out 
+ 1460  make
+ 1461  ./a.out 
+ 1462  make
+ 1463  ./a.out 
+ 1464  make
+ 1465  ./a.out 
+ 1466  git commit -am "On va dire y a une erreur de segmentation"
+ 1467  git log
+ 1468  git checkout ef0dc7478a2cd2c9935214308f061cca1f53e9b3
+ 1469  git checkout master
+ 1470  git reset --hard ef0dc7478a2cd2c9935214308f061cca1f53e9b3
+ 1471  git push origin master
+ 1472  make
+ 1473  man 2 fork
+ 1474  make
+ 1475  man wait
+ 1476  make
+ 1477  ./a.out 
+ 1478  make
+ 1479  ./a.out 
+ 1480  git commit -am "Question 6 : 2 processus avec fork"
+ 1481  git status
+ 1482  man 2 write
+ 1483  make
+ 1484  ./a.out
+ 1485  git commit -a
+ 1486  make
+ 1487  ls
+ 1488  ls TP1/
+ 1489  rm a.out 
+ 1490  mv Makefile TP1/
+ 1491  mv test.c TP1/
+ 1492  git status
+ 1493  git add TP1/
+ 1494  git commit -am "Oups mauvais répertoire"
+ 1495  cd TP1/
+ 1496  make
+ 1497  ./a.out 
+ 1498  ./a.out &
+ 1499  pstree
+ 1500  ./a.out &
+ 1501  pstree
+ 1502  ./a.out &
+ 1503  pstree
+ 1504  git status
+ 1505  git commit -am "Question 8 : 4 processus en tout"
+ 1506  make
+ 1507  ./a.out 
+ 1508  make
+ 1509  ./a.out 
+ 1510  make
+ 1511  ./a.out 
+ 1512  git status
+ 1513  git commit -am "Question 9 : usage de rand()"
+ 1514  make
+ 1515  ./a.out 
+ 1516  git commit -am "Question 10 : le père gère la première la fils la seconde"
+ 1517  make
+ 1518  ./a.out 
+ 1519  make
+ 1520  ./a.out 
+ 1521  ./a.out 2
+ 1522  ./a.out 3
+ 1523  git commit -am "Question 11 : gestion d'un tableau par plusieurs processus"
+ 1524  git push origin master 
+ 1525  cd ..
+ 1526  mkdir MP1
+ 1527  cd MP1/
+ 1528  cd ..
+ 1529  cd TP1/
+ 1530  make
+ 1531  ./a.out 3
+ 1532  git commit -am "Question 10 : ajout d'un wait + break"
+ 1533  cd ..
+ 1534  cd MP1/
+ 1535  ls
+ 1536  rm Makefile 
+ 1537  cp ../../../AVL_tree/Makefile .
+ 1538  make
+ 1539  man fgets
+ 1540  make
+ 1541  man fgets
+ 1542  make
+ 1543  ls
+ 1544  rm build/*
+ 1545  rm bin/*
+ 1546  make
+ 1547  less ../../../AVL_tree/Makefile 
+ 1548  make
+ 1549  ./bin/a.out 
+ 1550  make
+ 1551  ./bin/a.out 
+ 1552  git status
+ 1553  git add .
+ 1554  git status
+ 1555  git rm --cached bin
+ 1556  git rm --cached -r bin
+ 1557  git rm --cached -r build
+ 1558  git rm --cached -r src/*swp
+ 1559  git rm --cached -r *swp
+ 1560  git status
+ 1561  git commit 
+ 1562  make
+ 1563  ./bin/a.out 
+ 1564  man strchr
+ 1565  make
+ 1566  ./bin/a.out 
+ 1567  git commit
+ 1568  git status
+ 1569  git commit
+ 1570  git commit -a
+ 1571  ./bin/a.out 
+ 1572  git commit -am "mishell Question 1 : Documentation"
+ 1573  make
+ 1574  ./bin/a.out 
+ 1575  valgrind ./bin/a.out 
+ 1576  make
+ 1577  valgrind ./bin/a.out 
+ 1578  git commit -a
+ 1579  git push origin master 
+ 1580  make
+ 1581  ./bin/a.out 
+ 1582  git commit -a "mishell : Cleaning"
+ 1583  git commit -a
+ 1584  make
+ 1585  ./bin/a.out 
+ 1586  git commit -a
+ 1587  make
+ 1588  ./bin/a.out 
+ 1589  git commit -am "mishell: nettoyage"
+ 1590  man chdir
+ 1591  man getcwd
+ 1592  make
+ 1593  make clean
+ 1594  make
+ 1595  ./bin/a.out 
+ 1596  git status
+ 1597  git commit
+ 1598  git commit -a
+ 1599  ./bin/a.out 
+ 1600  make
+ 1601  make clean 
+ 1602  make
+ 1603  ./bin/a.out 
+ 1604  make
+ 1605  man getenv
+ 1606  make
+ 1607  make clean 
+ 1608  make
+ 1609  ./bin/a.out 
+ 1610  git commit -a
+ 1611  git commit -am "mishell : documentation"
+ 1612  git push origin master 
+ 1613  cd Documents/iatic4/
+ 1614  mkdir sea
+ 1615  cd sea/
+ 1616  mman getcwd
+ 1617  man getcwd
+ 1618  man chdir
+ 1619  git clone http://gitlab-chps.ens.uvsq.fr/sea/paul-repain.git
+ 1620  ls
+ 1621  cd paul-repain/
+ 1622  ls
+ 1623  ls -a
+ 1624  mkdir TP1;cd TP1
+ 1625  ls .git/
+ 1626  cd ..
+ 1627  cat .git/config 
+ 1628  cat .git/info/
+ 1629  cat .git/info/exclude 
+ 1630  ls
+ 1631  ls .git
+ 1632  git config user.email "paul.repain@ens.uvsq.fr"
+ 1633  git status
+ 1634  git config user.name "Paul Repain"
+ 1635  vim test.c
+ 1636  vim Makefile
+ 1637  vim .gitignore 
+ 1638  make
+ 1639  ./a.out 
+ 1640  git status
+ 1641  git add Makefile test.c 
+ 1642  git commit
+ 1643  vim test.c 
+ 1644  cd TP1/
+ 1645  vim Makefile test.c -p
+ 1646  cd ..
+ 1647  cd MP1/
+ 1648  touch Makefile
+ 1649  mkdir src
+ 1650  mkdir bin
+ 1651  ls
+ 1652  vim src/shell.c
+ 1653  touch src/main.c src/shell.h
+ 1654  vim -p *[ch]
+ 1655  vim -p *.[ch]
+ 1656  vim -p src/*.[ch]
+ 1657  lstopo
+ 1658  lynx google.com
+ 1659  sudo apt install r-base
+ 1660  which R
+ 1661  R
+ 1662  man open
+ 1663  git commit -a
+ 1664  man open
+ 1665  git commit -a
+ 1666  echo "pijp 
+ 1667  "
+ 1668  echo "pij     
+ 1669  ezf  
+ 1670  fzef  
+ 1671     ef"
+ 1672  make
+ 1673  valgrind ./bin/a.out 
+ 1674  Rgit diff
+ 1675  git diff
+ 1676  cat Makefile 
+ 1677  make tests
+ 1678  ./bin/strutils_test 
+ 1679  make tests
+ 1680  valgrind ./bin/strutils_test 
+ 1681  make tests
+ 1682  valgrind ./bin/strutils_test 
+ 1683  man strcpy
+ 1684  make tests
+ 1685  valgrind ./bin/strutils_test 
+ 1686  make tests
+ 1687  valgrind ./bin/strutils_test 
+ 1688  make tests
+ 1689  valgrind ./bin/strutils_test 
+ 1690  gcc -v
+ 1691  man strcpy
+ 1692  make tests
+ 1693  valgrind ./bin/strutils_test 
+ 1694  make tests
+ 1695  ./bin/strutils_test 
+ 1696  make tests
+ 1697  ./bin/strutils_test 
+ 1698  valgrind ./bin/strutils_test 
+ 1699  make tests
+ 1700  valgrind ./bin/strutils_test 
+ 1701  make tests
+ 1702  valgrind ./bin/strutils_test 
+ 1703  make tests
+ 1704  valgrind ./bin/strutils_test 
+ 1705  make tests
+ 1706  valgrind ./bin/strutils_test 
+ 1707  make tests
+ 1708  make clean
+ 1709  make tests
+ 1710  valgrind ./bin/strutils_test 
+ 1711  make tests
+ 1712  valgrind ./bin/strutils_test 
+ 1713  make tests
+ 1714  valgrind ./bin/strutils_test 
+ 1715  make tests
+ 1716  valgrind ./bin/strutils_test 
+ 1717  ssh -X 21802524@einstein.isty.uvsq.fr
+ 1718  ssh -X 21700125@einstein.isty.uvsq.fr
+ 1719  ls
+ 1720  cd Documents/
+ 1721  ls
+ 1722  cd iatic4
+ 1723  ls
+ 1724  cd sea/paul-repain/
+ 1725  ls
+ 1726  git pull origin master 
+ 1727  git log -2
+ 1728  cd MP1/
+ 1729  make
+ 1730  ./bin/a.out 
+ 1731  git checkout -b refactor
+ 1732  make
+ 1733  ./bin/a.out 
+ 1734  make
+ 1735  ./bin/a.out 
+ 1736  make
+ 1737  ./bin/a.out 
+ 1738  make
+ 1739  ./bin/a.out 
+ 1740  make clean
+ 1741  make
+ 1742  ./bin/a.out 
+ 1743  make
+ 1744  ./bin/a.out 
+ 1745  ls
+ 1746  rm '"' 
+ 1747  make
+ 1748  make clean
+ 1749  make
+ 1750  clear
+ 1751  make
+ 1752  make tests
+ 1753  make clean
+ 1754  make tests
+ 1755  ./bin/strutils_test 
+ 1756  valgrind ./bin/strutils_test 
+ 1757  make tests
+ 1758  cd Documents/iatic4/sea/paul-repain/
+ 1759  cd MP1/
+ 1760  ls
+ 1761  cd ..
+ 1762  cd -
+ 1763  ls
+ 1764  vim ../.gitignore 
+ 1765  vim -p src/*[ch]
+ 1766  git status
+ 1767  ls
+ 1768  make tests
+ 1769  make clean
+ 1770  make tests
+ 1771  ./bin/strutils_test 
+ 1772  make tests
+ 1773  ./bin/strutils_test 
+ 1774  make tests
+ 1775  ./bin/strutils_test 
+ 1776  make tests
+ 1777  ./bin/strutils_test 
+ 1778  valgrind ./bin/strutils_test 
+ 1779  make tests
+ 1780  valgrind ./bin/strutils_test 
+ 1781  make tests
+ 1782  valgrind ./bin/strutils_test 
+ 1783  make tests
+ 1784  valgrind ./bin/strutils_test 
+ 1785  make tests
+ 1786  make clean
+ 1787  make tests
+ 1788  make clean
+ 1789  make tests
+ 1790  make clean
+ 1791  make tests
+ 1792  ./bin/strutils_test 
+ 1793  make tests
+ 1794  ./bin/strutils_test 
+ 1795  make tests
+ 1796  ./bin/strutils_test 
+ 1797  make tests
+ 1798  ./bin/strutils_test 
+ 1799  make tests
+ 1800  ./bin/strutils_test 
+ 1801  make tests
+ 1802  ./bin/strutils_test 
+ 1803  make tests
+ 1804  ./bin/strutils_test 
+ 1805  make tests
+ 1806  ./bin/strutils_test 
+ 1807  make tests
+ 1808  ./bin/strutils_test 
+ 1809  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ 1810  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+ 1811  php composer-setup.php --install-dir /usr/bin --filename composer 
+ 1812  sudo php composer-setup.php --install-dir /usr/bin --filename composer 
+ 1813  php -r "unlink('composer-setup.php');"
+ 1814  clear
+ 1815  ls
+ 1816  ls -a
+ 1817  cat .gitignore 
+ 1818  cd
+ 1819  ls -a
+ 1820  vim .bashrc 
+ 1821  php -S localhost:8000 -t public
+ 1822  composer update -vvv
+ 1823  composer -help
+ 1824  composer --version
+ 1825  composer self-update --2
+ 1826  which composer
+ 1827  php -S localhost:8000 -t public
+ 1828  sudo apt remove composer
+ 1829  composer update -vvv
+ 1830  sudo apt install php-9
+ 1831  sudo apt install php-9.3
+ 1832  sudo apt install php9.5
+ 1833  sudo apt-get install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+ 1834  apt-cache search --names-only ^php
+ 1835  composer update -vvv
+ 1836  php -S localhost:8000 -t public
+ 1837  echo "php -S localhost:8000 -t public" >> README.md
+ 1838  man strcmp
+ 1839  make tests 
+ 1840  man strcmp
+ 1841  make tests 
+ 1842  man strcmp
+ 1843  make tests 
+ 1844  ./bin/strutils_test 
+ 1845  make tests 
+ 1846  ./bin/strutils_test 
+ 1847  make tests 
+ 1848  ./bin/strutils_test 
+ 1849  man malloc
+ 1850  man strcmp
+ 1851  make tests 
+ 1852  ./bin/strutils_test 
+ 1853  make tests 
+ 1854  ./bin/strutils_test 
+ 1855  make tests 
+ 1856  ./bin/strutils_test 
+ 1857  cd Documents/iatic4
+ 1858  ls
+ 1859  cd sea/paul-repain/
+ 1860  cd MP1/
+ 1861  vim -p src/*[ch] tests/*c
+ 1862  make tests 
+ 1863  valgrind ./bin/strutils_test 
+ 1864  ./bin/strutils_test 
+ 1865  valgrind ./bin/strutils_test 
+ 1866  ./bin/strutils_test 
+ 1867  make tests 
+ 1868  ./bin/strutils_test 
+ 1869  valgrind ./bin/strutils_test 
+ 1870  ./bin/strutils_test 
+ 1871  make tests 
+ 1872  ./bin/strutils_test 
+ 1873  valgrind ./bin/strutils_test 
+ 1874  valgrind -s ./bin/strutils_test 
+ 1875  make tests 
+ 1876  git status
+ 1877  git commit -a
+ 1878  make tests 
+ 1879  ./bin/strutils_test 
+ 1880  valgrind ./bin/strutils_test 
+ 1881  man git-commit
+ 1882  git config --global core.editor "vim"
+ 1883  git commit -a
+ 1884  make tests 
+ 1885  ./bin/strutils_test 
+ 1886  python3
+ 1887  make tests 
+ 1888  ./bin/strutils_test 
+ 1889  valgrind ./bin/strutils_test 
+ 1890  git commit 
+ 1891  git commit -a
+ 1892  git branch
+ 1893  make
+ 1894  ./mishell 
+ 1895  make
+ 1896  make clean
+ 1897  make
+ 1898  ./mishell 
+ 1899  ls bin
+ 1900  make
+ 1901  ./bin/mishell 
+ 1902  make
+ 1903  ./bin/mishell 
+ 1904  make
+ 1905  ./bin/mishell 
+ 1906  make
+ 1907  ./bin/mishell 
+ 1908  git commit -a
+ 1909  make
+ 1910  valgrind ./bin/mishell 
+ 1911  make
+ 1912  make clean
+ 1913  make
+ 1914  git commit -a
+ 1915  make
+ 1916  ./bin/mishell 
+ 1917  make
+ 1918  ./bin/mishell 
+ 1919  cd "$OLDPWD"
+ 1920  cd -
+ 1921  cd ..
+ 1922  cd "$OLDPWD"
+ 1923  make
+ 1924  ./bin/mishell 
+ 1925  git diff
+ 1926  git commit -am "Cleaning debug"
+ 1927  cat README.md 
+ 1928  cat ../../../AVL_tree/README.md 
+ 1929  echo 'find * -name *.[ch] -type f | xargs grep -n TODO' >> RE
+ 1930  find * -name *.[ch] -type f | xargs grep -n TODO
+ 1931  git checkout master 
+ 1932  git merge -
+ 1933  git push origin master
+ 1934  git checkout -
+ 1935  make
+ 1936  valgrind ./bin/mishell 
+ 1937  make
+ 1938  ./bin/mishell 
+ 1939  make
+ 1940  ./bin/mishell 
+ 1941  make
+ 1942  ./bin/mishell 
+ 1943  make
+ 1944  ./bin/mishell 
+ 1945  make
+ 1946  ./bin/mishell 
+ 1947  make
+ 1948  ./bin/mishell 
+ 1949  git commit -a
+ 1950  make
+ 1951  ./bin/mishell 
+ 1952  valgrind ./bin/mishell 
+ 1953  ./bin/mishell 
+ 1954  make
+ 1955  git commit -a
+ 1956  git checkout -
+ 1957  git merge -
+ 1958  cat README.md 
+ 1959  git push origin master
+ 1960  git checkout -b background_task
+ 1961  find * -name *.[ch] -type f | wc -l
+ 1962  find * -name *.[ch] -type f | xargs cat * | wc -l
+ 1963  wc -l *[ch]
+ 1964  wc -l */*[ch]
+ 1965  make
+ 1966  make clean
+ 1967  make
+ 1968  ./bin/mishell 
+ 1969  make
+ 1970  ./bin/mishell 
+ 1971  make
+ 1972  ./bin/mishell 
+ 1973  make
+ 1974  ./bin/mishell 
+ 1975  make
+ 1976  ./bin/mishell 
+ 1977  make
+ 1978  ./bin/mishell 
+ 1979  make
+ 1980  ./bin/mishell 
+ 1981  make
+ 1982  ./bin/mishell 
+ 1983  make
+ 1984  ./bin/mishell 
+ 1985  make
+ 1986  ./bin/mishell 
+ 1987  ps
+ 1988  ./bin/mishell 
+ 1989  make
+ 1990  ./bin/mishell 
+ 1991  man wait 2
+ 1992  make
+ 1993  ./bin/mishell 
+ 1994  p
+ 1995  ps
+ 1996  cd Documents/iatic4/sea/paul-repain/MP1/
+ 1997  vim -p src/*[ch] tests/*c
+ 1998  lynx localhost:8000
+ 1999  cd ../..
+ 2000  cd ../iatic4/
+ 2001  ls
+ 2002  cd sea/paul-repain/p
+ 2003  cd sea/paul-repain/
+ 2004  git status
+ 2005  git push origin master
+ 2006  cd -
+ 2007  cd ../paul/imdb_api/imdb_api/
+ 2008  head ../../name.basics.tsv 
+ 2009  php artisan migrate:status
+ 2010  cat ../../iatic/config/storage.yml 
+ 2011  cat ../../iatic/config/database.yml 
+ 2012  php artisan migrate:status
+ 2013  ls
+ 2014  rm database/dev.sqlite 
+ 2015  php artisan migrate:status
+ 2016  php artisan migrate
+ 2017  php artisan migrate:status
+ 2018  touch storage/dev.sqlite
+ 2019  php artisan migrate:status
+ 2020  ls
+ 2021  head composer.lock 
+ 2022  head composer.json 
+ 2023  less composer.json 
+ 2024  sudo apt-get install php-sqlite3
+ 2025  php artisan migrate:status
+ 2026  php artisan migrate
+ 2027  php artisan migrate:status
+ 2028  history >> .history.txt 
