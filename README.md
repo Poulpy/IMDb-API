@@ -31,6 +31,13 @@ wget https://datasets.imdbws.com/name.basics.tsv.gz \
 php -S localhost:8000 -t public
 ```
 
+
+## Run seeds
+
+```
+php artisan db:seed --class=NameBasicsSeeder
+```
+
 ## Lost ?
 
 Check `.history.txt` file for last commands run.
