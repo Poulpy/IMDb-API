@@ -26,3 +26,4 @@ $router->post('foo', function () {
 });
 
 $router->get('name_basics/index', 'NameBasicsController@index');
+$router->get('title_akas/index', 'TitleAkasController@index');

@@ -1998,3 +1998,1003 @@
  2026  php artisan migrate
  2027  php artisan migrate:status
  2028  history >> .history.txt 
+ 1058  cd big_data/
+ 1059  R
+ 1060  ping google.com
+ 1061  ping google.fr
+ 1062  ping www.google.fr
+ 1063  cd Documents/iatic3/AOA_
+ 1064  cd Documents/iatic4/AOA_ISTY/
+ 1065  git status
+ 1066  git rm maqao_html/RAM -rf
+ 1067  git rm maqao_html/RAM/ -rf
+ 1068  git status
+ 1069  ls maqao_html/
+ 1070  rm maqao_html/RAM/ -rf
+ 1071  git status
+ 1072  git log -2
+ 1073  git pull origin phase2_paul 
+ 1074  vim scripts/* -p
+ 1075  mv scripts/gen_plot.gp scripts/barplot.gp
+ 1076  man gnuplot
+ 1077  ./scripts/compile_all.sh 
+ 1078  ./scripts/execute_all.sh L1
+ 1079  ./scripts/create_barplot.sh L1 10
+ 1080  eog plots/png/L1/med_L1_gcc.png 
+ 1081  ./scripts/create_barplot.sh L1 30
+ 1082  eog plots/png/L1/med_L1_gcc.png 
+ 1083  ./scripts/create_barplot.sh L1 15
+ 1084  eog plots/png/L1/med_L1_gcc.png 
+ 1085  eog plots/png/L1/med_L1_icc.png 
+ 1086  git status
+ 1087  rm plots/png/L1/med_L1.png 
+ 1088  git commit -am "barplots for different compilers (gcc/icc)"
+ 1089  git push origin phase2_paul 
+ 1090  ls plots/png/
+ 1091  rm -rf plots/png/
+ 1092  ls plots/
+ 1093  mkdir plots/png
+ 1094  rm -rf plots/dat/*
+ 1095  ls plots/
+ 1096  ls plots/dat/
+ 1097  ls maqao_html/
+ 1098  git status
+ 1099  git commit -am "Clean dat and png files"
+ 1100  git push origin phase2_paul 
+ 1101  cd Documents/iatic4/AOA_ISTY/
+ 1102  vim src/kernel.c 
+ 1103  cd Documents/iatic4/AOA_ISTY/
+ 1104  ./scripts/execute_all.sh RAM
+ 1105  ./scripts/compile_all.sh 
+ 1106  ./scripts/execute_all.sh RAM
+ 1107  ./scripts/create_maqao_reports.sh RAM
+ 1108  ./scripts/create_barplot.sh RAM 50
+ 1109  cd Documents/iatic4/AOA_ISTY/
+ 1110  eog plots/png/RAM/med_RAM_gcc.png 
+ 1111  eog plots/png/RAM/med_RAM_icc.png 
+ 1112  eog plots/png/RAM/med_RAM_gcc.png 
+ 1113  ./scripts/create_barplot.sh RAM 20
+ 1114  eog plots/png/RAM/med_RAM_gcc.png 
+ 1115  git status
+ 1116  git add maqao_html/RAM
+ 1117  git add plots/
+ 1118  git add scripts/barplot.gp 
+ 1119  git commit -am "RAM done"
+ 1120  git push origin phase2_paul 
+ 1121  firefox maqao_html/RAM/gcc/OPT9/sgemm_gcc_o2_opt9_one_html/index.html 
+ 1122  firefox maqao_html/RAM/icc/OPT9/sgemm_icc_o2_opt9_one_html/index.html 
+ 1123  cd Documents/iatic4/AOA_ISTY/
+ 1124  which dmidecode
+ 1125  sudo dmidecode -t memory
+ 1126  man dmidecode
+ 1127  sudo dmidecode -t memory
+ 1128  less src/kernel.c 
+ 1129  cd Documents/iatic4/big_data/
+ 1130  R
+ 1131  cd Documents/iatic4/
+ 1132  cd sea/paul-repain/MP2
+ 1133  ls
+ 1134  cd scheduler/
+ 1135  ls
+ 1136  vim *[ch] -p
+ 1137  cd ../..
+ 1138  cd ..
+ 1139  cd big_data/
+ 1140  ls
+ 1141  R
+ 1142  ls
+ 1143  R
+ 1144  make rapport
+ 1145  make simulate_rr
+ 1146  ls
+ 1147  head sjf.source 
+ 1148  ./sched rr
+ 1149  make rapport
+ 1150  cd ../..
+ 1151  cd big_data/
+ 1152  less td1.r 
+ 1153  less src/kernel.c 
+ 1154  gcc -std=c99 -Wall -fopenmp src/test.c 
+ 1155  ./a.out 50
+ 1156  less ../AVL_tree/src/doublev.c
+ 1157  gcc -std=c99 -Wall -fopenmp src/test.c 
+ 1158  ./a.out 50
+ 1159  valgrind ./a.out 50
+ 1160  gcc -std=c99 -Wall -fopenmp src/test.c 
+ 1161  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1162  valgrind ./a.out 50
+ 1163  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1164  valgrind ./a.out 50
+ 1165  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1166  valgrind ./a.out 50
+ 1167  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1168  valgrind ./a.out 50
+ 1169  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1170  valgrind ./a.out 50
+ 1171  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1172  valgrind ./a.out 50
+ 1173  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1174  valgrind ./a.out 50
+ 1175  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1176  valgrind ./a.out 50
+ 1177  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1178  valgrind ./a.out 50
+ 1179  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1180  valgrind ./a.out 50
+ 1181  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1182  ./a.out 50
+ 1183  valgrind ./a.out 20
+ 1184  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1185  valgrind ./a.out 20
+ 1186  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1187  valgrind ./a.out 20
+ 1188  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1189  valgrind ./a.out 20
+ 1190  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1191  valgrind ./a.out 20
+ 1192  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1193  valgrind ./a.out 20
+ 1194  valgrind ./a.out 10
+ 1195  valgrind ./a.out 20
+ 1196  valgrind ./a.out 19
+ 1197  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1198  valgrind ./a.out 19
+ 1199  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1200  ./a.out 10
+ 1201  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1202  ./a.out 10
+ 1203  valgrind ./a.out 19
+ 1204  valgrind ./a.out 10
+ 1205  valgrind --leak-check=full   ./a.out 10
+ 1206  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1207  valgrind --leak-check=full   ./a.out 10
+ 1208  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1209  ./a.out 10
+ 1210  valgrind --leak-check=full   ./a.out 10
+ 1211  ./a.out 10
+ 1212  valgrind --leak-check=full --show-leak-kinds=all  ./a.out 10
+ 1213  ./a.out 10
+ 1214  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1215  ./a.out 10
+ 1216  valgrind --leak-check=full --show-leak-kinds=all  ./a.out 10
+ 1217  gcc -std=c99 -Wall -g -fopenmp src/test.c 
+ 1218  valgrind --leak-check=full --show-leak-kinds=all  ./a.out 10
+ 1219  gcc -std=c99 -Wall -g -O2 -fopenmp src/test.c 
+ 1220  valgrind --leak-check=full --show-leak-kinds=all  ./a.out 10
+ 1221  git status
+ 1222  rm a.out 
+ 1223  git add src/test.c 
+ 1224  git log
+ 1225  git commit -am "Check kernels are OK"
+ 1226  git commit -am "Clean kernels"
+ 1227  ./scripts/compile_all.sh 
+ 1228  ./scripts/execute_all.sh L1
+ 1229  ./scripts/create_barplot.sh L1
+ 1230  ./scripts/create_barplot.sh L1 20
+ 1231  eog plots/png/L1/med_L1_gcc.png 
+ 1232  ./scripts/create_barplot.sh L1 16
+ 1233  eog plots/png/L1/med_L1_gcc.png 
+ 1234  ./scripts/create_barplot.sh L1 12
+ 1235  eog plots/png/L1/med_L1_gcc.png 
+ 1236  eog plots/png/L1/med_L1_icc.png 
+ 1237  git status
+ 1238  git diff src/kernel.c
+ 1239  git diff
+ 1240  git status
+ 1241  git checkout plots/
+ 1242  git status
+ 1243  git commit -am "Fix kernel + change OPT in config.sh"
+ 1244  ./scripts/execute_all.sh L1
+ 1245  ./scripts/create_barplot.sh L1 12
+ 1246  eog plots/png/L1/med_L1_gcc.png 
+ 1247  eog plots/png/L1/med_L1_gcc_omp.png 
+ 1248  ./scripts/create_barplot.sh L1 12
+ 1249  eog plots/png/L1/med_L1_gcc_omp.png 
+ 1250  eog plots/png/L1/med_L1_icc_omp.png 
+ 1251  eog plots/png/L1/med_L1_icc.png 
+ 1252  git status
+ 1253  git checkout plots/ .
+ 1254  git status
+ 1255  ./scripts/execute_all.sh L1
+ 1256  ./scripts/create_barplot.sh L1 12
+ 1257  eog plots/png/L1/med_L1_gcc_omp.png 
+ 1258  git commit -am "Ouuuuuuuuuui"
+ 1259  git status
+ 1260  git add plots/dat/L1/*
+ 1261  git commit -am "Ouuuuuuuuuui (2)"
+ 1262  git push origin phase2_paul 
+ 1263  sudo apt-get install xclip
+ 1264  ssh-keygen -t ed25519 -C "paul.repain@yahoo.com"
+ 1265  eval "$(ssh-agent -s)"
+ 1266  ssh-add ~/.ssh/id_ed25519
+ 1267  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+ 1268  git push origin phase2_paul 
+ 1269  ssh -T git@github.com
+ 1270  git remote set-url origin git@github.com:Nirvana21/AOA_ISTY.git
+ 1271  cd Documents/iatic4/AOA_ISTY/
+ 1272  git branch
+ 1273  git pull origin phase2_paul 
+ 1274  cp src/kernel.c src/test.c
+ 1275  vim src/test.c 
+ 1276  vim scripts/* -p
+ 1277  less td1.r 
+ 1278  cd Documents/iatic4/big_data/
+ 1279  R
+ 1280  eog fibo9.png 
+ 1281  less td1.r 
+ 1282  R
+ 1283  head csv/allocine2019f.csv 
+ 1284  vim allo.R
+ 1285  vim allo.txt
+ 1286  cd Documents/iatic4/big_data/
+ 1287  R
+ 1288  cd csv/
+ 1289  R
+ 1290  cd Documents/iatic4/big_data/
+ 1291  cd ..
+ 1292  cd big_data/
+ 1293  R
+ 1294  cd csv/
+ 1295  R
+ 1296  less ../td1.r 
+ 1297  less ../allo.txt 
+ 1298  R
+ 1299  ./scripts/compile_all.sh 
+ 1300  ./scripts/execute_all.sh L1
+ 1301  cat README.txt 
+ 1302  ./scripts/create_barplot.sh L1 30
+ 1303  eog plots/png/L1/med_L1_gcc_omp.png 
+ 1304  eog plots/png/L1/med_L1_gcc.png 
+ 1305  eog plots/png/L1/med_L1_icc.png 
+ 1306  ./scripts/create_barplot.sh L1 12
+ 1307  eog plots/png/L1/med_L1_icc.png 
+ 1308  ./scripts/compile_all.sh 
+ 1309  ./scripts/execute_all.sh L1
+ 1310  ./scripts/create_barplot.sh L1 12
+ 1311  eog plots/png/L1/med_L1_icc.png 
+ 1312  eog plots/png/L1/med_L1_icc_omp.png 
+ 1313  ./scripts/compile_all.sh 
+ 1314  eog plots/png/L1/med_L1_icc_omp.png 
+ 1315  eog plots/png/L1/med_L1_icc.png 
+ 1316  cat plots/dat/L1/med_L1_icc.dat 
+ 1317  cat plots/dat/L1/med_L1_icc_omp.dat 
+ 1318  ./scripts/compile_all.sh 
+ 1319  ./scripts/execute_all.sh L1
+ 1320  ./scripts/create_barplot.sh L1 12
+ 1321  eog plots/png/L1/med_L1_icc.png 
+ 1322  eog plots/png/L1/med_L1_icc_omp.png 
+ 1323  ./scripts/compile_all.sh 
+ 1324  ./scripts/execute_all.sh L1
+ 1325  ./scripts/create_barplot.sh L1 12
+ 1326  eog plots/png/L1/med_L1_icc.png 
+ 1327  eog plots/png/L1/med_L1_icc_omp.png 
+ 1328  eog plots/png/L1/med_L1_icc.png 
+ 1329  cat plots/dat/L1/med_L1_icc.dat 
+ 1330  ./scripts/compile_all.sh 
+ 1331  ./scripts/execute_all.sh L1
+ 1332  ./scripts/create_barplot.sh L1 12
+ 1333  eog plots/png/L1/med_L1_icc.png 
+ 1334  eog plots/png/L1/med_L1_icc_omp.png 
+ 1335  eog plots/png/L1/med_L1_gcc.png 
+ 1336  eog plots/png/L1/med_L1_gcc_omp.png 
+ 1337  cd Documents/iatic4/AOA_ISTY/
+ 1338  git log -2
+ 1339  git fetch 
+ 1340  git log -2
+ 1341  git pull origin phase2_paul 
+ 1342  rm plots/png/L1/med_L1_gcc_omp.png 
+ 1343  rm plots/png/L1/med_L1_icc_omp.png 
+ 1344  git pull origin phase2_paul 
+ 1345  git log -2
+ 1346  ./scripts/compile_all.sh 
+ 1347  vim src/kernel.c 
+ 1348  ./scripts/compile_all.sh 
+ 1349  ./scripts/execute_all.sh L1
+ 1350  ./scripts/create_barplot.sh L1 12
+ 1351  eog plots/png/L1/med_L1_gcc.png 
+ 1352  eog plots/png/L1/med_L1_icc.png 
+ 1353  eog plots/png/L1/med_L1_icc_omp.png 
+ 1354  git status
+ 1355  git commit -am "Remove unefficient OPTs"
+ 1356  git push origin phase2_paul 
+ 1357  cd Documents/iatic4/AOA_ISTY/
+ 1358  vim src/kernel.c scripts/config.sh -p
+ 1359  cd ../big_data/
+ 1360  cd csv/
+ 1361  R
+ 1362  cd Documents/iatic4/AOA_ISTY/
+ 1363  git pull origin phase2_paul 
+ 1364  cat README.txt 
+ 1365  ./scripts/compile_all.sh 
+ 1366  cd Documents/iatic4/AOA_ISTY/
+ 1367  ./scripts/execute_all.sh RAM
+ 1368  cat plots/dat/RAM/med_RAM_gcc.dat 
+ 1369  cat plots/dat/RAM/med_RAM_icc.dat 
+ 1370  cat plots/dat/RAM/med_RAM_icc_omp.dat 
+ 1371  cat plots/dat/RAM/med_RAM_gcc_omp.dat 
+ 1372  cat README.txt 
+ 1373  ./scripts/create_barplot.sh RAM 23
+ 1374  ./scripts/create_maqao_reports RAM
+ 1375  ./scripts/create_maqao_reports.sh RAM
+ 1376  cd Documents/iatic4/AOA_ISTY/
+ 1377  git status
+ 1378  git add maqao_html/RAM
+ 1379  c "RAM done"
+ 1380  git push origin phase2_paul 
+ 1381  cd Documents/iatic4/sea/paul-repain/MP2/
+ 1382  cd scheduler/
+ 1383  vim -p *[ch]
+ 1384  cd ../..
+ 1385  ls
+ 1386  head name.basics.tsv 
+ 1387  ls
+ 1388  cp name.basics.tsv imdb_api/imdb_api/storage/
+ 1389  ls
+ 1390  cd imdb_api/
+ 1391  ls -a
+ 1392  cd imdb_api/
+ 1393  ls
+ 1394  ls -a
+ 1395  less .history.txt 
+ 1396  php artisan migrate:status
+ 1397  ls
+ 1398  ls database/
+ 1399  cd
+ 1400  wget https://www.imdb.com/interfaces/ https://stackoverflow.com/questions/3430810/multiple-simultaneous-downloads-using-wget
+ 1401  ls
+ 1402  head multiple-simultaneous-downloads-using-wget 
+ 1403  head index.html 
+ 1404  rm index.html 
+ 1405  rm multiple-simultaneous-downloads-using-wget 
+ 1406  git status
+ 1407  cd Documents/paul/imdb_api/imdb_api/
+ 1408  git remote add origin git@github.com:Poulpy/IMDb-API.git
+ 1409  git branch -M main
+ 1410  git push -u origin main
+ 1411  vim README.md 
+ 1412  git status
+ 1413  git rm --cached database/seeders/name.basics.tsv 
+ 1414  git status
+ 1415  c "Remove TSV file (too fat) + add download instructions"
+ 1416  git push origin main 
+ 1417  git status
+ 1418  git rm --cached database/seeders/name.basics.tsv 
+ 1419  ls database/seeders/
+ 1420  git ls-files
+ 1421  git ls-files | grep *tsv
+ 1422  git log -3
+ 1423  git filter-branch --prune-empty -d /dev/shm/scratch --index-filter "git rm --cached -f --ignore-unmatch database/seeders/name.basics.tsv" --tag-name-filter cat -- --all
+ 1424  git lola --name-status
+ 1425  git log --graph --decorate --pretty=oneline --abbrev-commit --all --name-status
+ 1426  git update-ref -d refs/original/refs/heads/main
+ 1427  git reflog expire --expire=now --all
+ 1428  git gc --prune=now
+ 1429  git log --graph --decorate --pretty=oneline --abbrev-commit --all --name-status
+ 1430  git status
+ 1431  git push origin main
+ 1432  clear
+ 1433  ls
+ 1434  php artisan help
+ 1435  php artisan list
+ 1436  vim README.md 
+ 1437  git status
+ 1438  c "Cleaning"
+ 1439  php -S localhost:8000 -t public
+ 1440  ls storage/
+ 1441  php -S localhost:8000 -t public
+ 1442  php artisan serve
+ 1443  php artisan server
+ 1444  ls -l
+ 1445  ls storage/ -l
+ 1446  php -S localhost:8000 -t public
+ 1447  cp storage/dev.sqlite database/
+ 1448  php -S localhost:8000 -t public
+ 1449  sqlite3 storage/dev.sqlite 
+ 1450  php -S localhost:8000 -t public
+ 1451  rm storage/dev.sqlite 
+ 1452  php -S localhost:8000 -t public
+ 1453  cd ../..
+ 1454  cd ../iatic4/AOA_ISTY/
+ 1455  cat plots/dat/RAM/med_RAM_icc.dat 
+ 1456  firefox maqao_html/RAM/icc/OPT1/sgemm_icc_o2_opt1_one_html/index.html 
+ 1457  firefox maqao_html/RAM/icc/NOOPT/sgemm_icc_o2_noopt_one_html/index.html 
+ 1458  firefox maqao_html/RAM/icc/OPT2/sgemm_icc_o2_opt2_one_html/index.html 
+ 1459  less src/kernel.c 
+ 1460  firefox maqao_html/RAM/icc/OPT3/sgemm_icc_o2_opt3_one_html/index.html 
+ 1461  less src/kernel.c 
+ 1462  firefox maqao_html/RAM/icc/OPT4/sgemm_icc_o2_opt4_one_html/index.html 
+ 1463  firefox maqao_html/RAM/icc/OPT5/sgemm_icc_o2_opt5_one_html/index.html 
+ 1464  less src/kernel.c 
+ 1465  firefox maqao_html/RAM/icc/OPT6/sgemm_icc_o2_opt6_one_html/index.html 
+ 1466  less src/kernel.c 
+ 1467  firefox maqao_html/RAM/icc/OPT7/sgemm_icc_o2_opt7_one_html/index.html 
+ 1468  cd Documents/paul/imdb_api/imdb_api/
+ 1469  history | tail
+ 1470  php artisan seed --class=NameBasicsSeeder
+ 1471  php artisan db:seed --class=NameBasicsSeeder
+ 1472  vim database/seeders/NameBasicsSeeder.php 
+ 1473  php artisan db:seed --class=NameBasicsSeeder --fresh
+ 1474  php artisan db:seed --class=NameBasicsSeeder
+ 1475  vim database/seeders/NameBasicsSeeder.php 
+ 1476  php artisan db:seed --class=NameBasicsSeeder
+ 1477  git status
+ 1478  cat .styleci.yml 
+ 1479  git add database/
+ 1480  cd ..
+ 1481  git status
+ 1482  cd imdb_api/
+ 1483  git status 
+ 1484  git add database/seeders/NameBasicsSeeder.php 
+ 1485  git add database/migrations/2021_02_27_163023_create_name_basics_table.php
+ 1486  git add database/seeders/name.basics.tsv 
+ 1487  git commit -am "seeding done (name_basics): next controller+view as JSON"
+ 1488  echo "php artisan db:seed --class=NameBasicsSeeder" >> README.md 
+ 1489  cd Documents/iatic4/AOA_ISTY/
+ 1490  git pull origin phase2_paul 
+ 1491  vim src/kernel.c 
+ 1492  git commit -am "Comments"
+ 1493  git push origin phase2_paul 
+ 1494  firefox index.html 
+ 1495  which npm
+ 1496  npm install pagedjs
+ 1497  cd ..
+ 1498  cd pdf/
+ 1499  $ npm install -g pagedjs-cli pagedjs
+ 1500  npm install -g pagedjs-cli pagedjs
+ 1501  ls -la /usr/local/lib/node_modules
+ 1502  ls -la /usr/local/lib/
+ 1503  whoiam
+ 1504  id -un
+ 1505  sudo chown -R ubuntu:ubuntu /usr/local/lib
+ 1506  npm install -g pagedjs-cli pagedjs
+ 1507  ls /usr/local/bin
+ 1508  ls -la /usr/local/lib/
+ 1509  sudo chown -R ubuntu:ubuntu /usr/local/lib/node_modules/
+ 1510  npm install -g pagedjs-cli pagedjs
+ 1511  ls -la /usr/local/lib/
+ 1512  ls -la ../
+ 1513  sudo chown -R ubuntu:ubuntu /usr/local/
+ 1514  npm install -g pagedjs-cli pagedjs
+ 1515  pagedjs-cli index.html -o result.pdf
+ 1516  evince result.pdf 
+ 1517  pagedjs-cli index.html -o result.pdf
+ 1518  evince result.pdf 
+ 1519  firefox  index.html 
+ 1520  chromium index.html 
+ 1521  cd Documents/iatic4/
+ 1522  cd AOA_ISTY/
+ 1523  git log -2
+ 1524  rm scripts/create_maqao_reports_copy.sh 
+ 1525  c "Remove create_maqao_reports_copy.sh"
+ 1526  git push origin phase2_paul 
+ 1527  less src/kernel.c 
+ 1528  cd ../..
+ 1529  cd paul/
+ 1530  mkdir intership_report
+ 1531  cd intership_report/
+ 1532  touch index.html
+ 1533  vim index.html 
+ 1534  rm index.html 
+ 1535  wget https://raw.githubusercontent.com/ashok-khanna/pdf/main/index.html
+ 1536  vim index.html 
+ 1537  cd ..
+ 1538  git clone https://github.com/ashok-khanna/pdf.git
+ 1539  cd pdf/
+ 1540  firefox  index.html 
+ 1541  vim index.html 
+ 1542  ls /mnt/
+ 1543  ls /media/ubuntu/E07ACDDF7ACDB31811
+ 1544  cp /media/ubuntu/E07ACDDF7ACDB31811/IATIC4/aoa/AOA_ISTY-phase2_paul.zip Documents/
+ 1545  cd Documents/
+ 1546  ls
+ 1547  unzip AOA_ISTY-phase2_paul.zip 
+ 1548  ls
+ 1549  cd AOA_ISTY-phase2_paul/
+ 1550  ls
+ 1551  cd ..
+ 1552  mv AOA_ISTY-phase2_paul phase_2_sujet_5
+ 1553  ls
+ 1554  tar -cvzf phase_2_sujet_5.tgz phase_2_sujet_5/
+ 1555  ls
+ 1556  ls -l
+ 1557  ls -lh
+ 1558  ls
+ 1559  rm AOA_ISTY-phase2_paul.zip 
+ 1560  ls
+ 1561  rm phase_1_sujet_5.tgz 
+ 1562  rm phase_2_sujet_5.tgz 
+ 1563  ls
+ 1564  ls tests/
+ 1565  rm tests/
+ 1566  rm -rf tests/
+ 1567  ls
+ 1568  ls matrix-mul/
+ 1569  rm -rf matrix-mul/
+ 1570  ls
+ 1571  rm -rf phase_2_sujet_5/
+ 1572  ls
+ 1573  cd iatic
+ 1574  cd iatic3/
+ 1575  ls
+ 1576  cd
+ 1577  ls
+ 1578  rm -rf lingo18/
+ 1579  evince mozilla.pdf 
+ 1580  rm mozilla.pdf 
+ 1581  ls
+ 1582  rm n.dat 
+ 1583  rm rapport_phase_1.pdf 
+ 1584  ls
+ 1585  head script.sh 
+ 1586  ls
+ 1587  ls Downloads/
+ 1588  cd Documents/iatic4/sea/paul-repain/MP2
+ 1589  cd scheduler/
+ 1590  vim proprietes.txt
+ 1591  git commit -am "Add proprietes.txt"
+ 1592  git push origin master 
+ 1593  make rapport
+ 1594  cd csv/
+ 1595  R
+ 1596  ls
+ 1597  man R
+ 1598  R --no-restore
+ 1599  cd ..
+ 1600  R --no-restore
+ 1601  cd csv/
+ 1602  R
+ 1603  cd -
+ 1604  R
+ 1605  R --no-restore
+ 1606  wget https://pastebin.com/raw/h5B4LcUw
+ 1607  cd Documents/iatic4/big_data/
+ 1608  ls
+ 1609  ls csv/
+ 1610  head csv/ANSUR_II_MALE_Public.csv 
+ 1611  cd csv/
+ 1612  R
+ 1613  ls
+ 1614  cd ..
+ 1615  ls
+ 1616  R
+ 1617  ls
+ 1618  cat allo.txt 
+ 1619  less allo.txt 
+ 1620  less allo.R 
+ 1621  less allo.txt 
+ 1622  less allo.R 
+ 1623  less allo.txt 
+ 1624  cd Documents/paul/
+ 1625  ls
+ 1626  rails new WOrthanc
+ 1627  cd WOrthanc/
+ 1628  git init
+ 1629  ls
+ 1630  git commit -am "Init repo"
+ 1631  git add .
+ 1632  git commit -am "Init repo"
+ 1633  vim Gemfile
+ 1634  less ../iatic/config/database.yml 
+ 1635  vim config/database.yml 
+ 1636  vim Gemfile
+ 1637  bundle
+ 1638  vim config/database.yml 
+ 1639  git commit -am "Add pg gem"
+ 1640  vim config/database.yml 
+ 1641  psql -U iatic
+ 1642  sudo -u postgres
+ 1643  su -
+ 1644  su
+ 1645  su - postgres
+ 1646  psql -u iatic
+ 1647  psql iatic
+ 1648  psql -h localhost
+ 1649  createdb --owner=postgres --encoding=utf8 user
+ 1650  su createdb --owner=postgres --encoding=utf8 user
+ 1651  sudo createdb --owner=postgres --encoding=utf8 user
+ 1652  sudo -u postgres createdb --owner=postgres --encoding=utf8 user
+ 1653  psql
+ 1654  psql - postgres
+ 1655  psql -d postgres
+ 1656  sudo -u postgres psql -d postgres
+ 1657  vim config/database.yml 
+ 1658  rails db:create
+ 1659  less ../iatic/config/database.yml 
+ 1660  psql
+ 1661  man psql
+ 1662  psql -U root
+ 1663  psql -U postgres
+ 1664  psql -U paul
+ 1665  psql -U iatic
+ 1666  cd ../iatic
+ 1667  rails credentials:edit
+ 1668  EDITOR="vim" rails credentials:edit
+ 1669  cd ../WOrthanc/
+ 1670  rails db:create
+ 1671  psql -U paul
+ 1672  ls /etc/po*
+ 1673  vim /etc/postgresql/12/main/pg_hba.conf 
+ 1674  cat /etc/postgresql/12/main/pg_hba.conf 
+ 1675  sudo cat /etc/postgresql/12/main/pg_hba.conf 
+ 1676  sudo vim /etc/postgresql/12/main/pg_hba.conf 
+ 1677  psql -U paul
+ 1678  cat /etc/postgresql/12/main/pg_hba.conf 
+ 1679  sudo vim /etc/postgresql/12/main/pg_hba.conf 
+ 1680  sudo service postgresql restart
+ 1681  psql -U paul
+ 1682  rails db:create
+ 1683  vim Gemfile
+ 1684  bundle
+ 1685  rails g migration EnableUuidExtension
+ 1686  vim db/migrate/20210427075932_enable_uuid_extension.rb 
+ 1687  rake db:migrate
+ 1688  sudo -u postgres psql
+ 1689  rake db:migrate
+ 1690  cd Documents/paul/
+ 1691  ls
+ 1692  cd WOrthanc/
+ 1693  sudo -u postgres psql 
+ 1694  history
+ 1695  rake db:migrate
+ 1696  EDITOR="vim" rails credentials:edit
+ 1697  less ../iatic/config/database.yml 
+ 1698  rails g devise:install
+ 1699  rails g devise User
+ 1700  less config/database.yml 
+ 1701  vim config/database.yml 
+ 1702  vim README.md 
+ 1703  sudo apt install orthanc
+ 1704  ps aux
+ 1705  ps aux |less
+ 1706  which curl
+ 1707  $ curl http://localhost:8042/instances -X GET
+ 1708  curl http://localhost:8042/instances -X GET
+ 1709  curl http://localhost:8042/modalities -X GET
+ 1710  curl http://localhost:8042/patients -X GET
+ 1711  curl http://localhost:8042/instances -X GET
+ 1712  curl http://localhost:8042/tools/create-dicom -X POST
+ 1713  curl http://localhost:8042/tools/create-dicom -X POST --data-binary "@~/Downloads"
+ 1714  echo ~/Downloads/2_skull_ct/DICOM/I11
+ 1715  curl http://localhost:8042/tools/create-dicom -X POST --data-binary "@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1716  tail /var/log/orthanc/Orthanc.log
+ 1717  head /var/log/orthanc/Orthanc.log
+ 1718  curl http://localhost:8042/tools/create-dicom -X POST -d --data-binary "@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1719  curl http://localhost:8042/tools/create-dicom -X POST -H "Content-Type: application/dicom" --data-binary "@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1720  curl http://localhost:8042/tools/create-dicom -X POST -H "Content-Type: application/dicom" -F "Path=@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1721  curl http://localhost:8042/instances -X POST -H "Content-Type: application/dicom" -F "Path=@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1722  curl http://localhost:8042/instances -X POST -F "@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1723  curl http://localhost:8042/instances -X POST --data-binary "@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"
+ 1724  curl http://localhost:8042/patients -X GET
+ 1725  $ curl http://localhost:8042/instances -X GET
+ 1726  curl http://localhost:8042/instances -X GET
+ 1727  echo 'curl http://localhost:8042/instances -X POST -H "Content-Type: application/dicom" -F "Path=@/home/ubuntu/Downloads/2_skull_ct/DICOM/I11"' >> ~/.history2.txt
+ 1728  cd Documents/paul/WOrthanc/
+ 1729  vim db/migrate/20210427130019_devise_create_users.rb 
+ 1730  cd Documents/paul/WOrthanc/
+ 1731  rake db:migrate
+ 1732  rails s
+ 1733  rails generate devise:views
+ 1734  rails s
+ 1735  rails generate devise:views users
+ 1736  rails d devise:views users
+ 1737  rails s
+ 1738  rake help
+ 1739  rake routes
+ 1740  rails s
+ 1741  ps aux | grep disc
+ 1742  kill -9 9206 9452 9453
+ 1743  ps aux | grep disc
+ 1744  rails s
+ 1745  cd ..
+ 1746  rails new Isengard --database=postgresql --webpack
+ 1747  cd Isengard/
+ 1748  ls
+ 1749  vim ../WOrthanc/config/database.yml config/database.yml -p
+ 1750  EDITOR="vim" rails credentials:edit
+ 1751  rails g migration EnableUUID
+ 1752  vim db/migrate/20210428145304_enable_uuid.rb
+ 1753  vim Gemfile
+ 1754  bundle
+ 1755  rails generate devise:install
+ 1756  rails generate devise User
+ 1757  rails generate devise:views
+ 1758  vim db/migrate/*users*
+ 1759  rake db:migrate
+ 1760  rake db:creat
+ 1761  rake db:create
+ 1762  rake db:migrate
+ 1763  vim db/migrate/20210428145304_enable_uuid.rb
+ 1764  rake db:migrate
+ 1765  rails s
+ 1766  rails help
+ 1767  rails webpacker:compile
+ 1768  node -v
+ 1769  nvm install node
+ 1770  bundle exec rails webpacker:install
+ 1771  ./bin/webpack-dev-server 
+ 1772  yarn upgrade
+ 1773  node -v
+ 1774  rm -rf bin/webpack*
+ 1775  RAILS_ENV=test bundle exec rails webpacker:compile
+ 1776  RAILS_ENV=development bundle exec rails webpacker:compile
+ 1777  rails webpacker:install
+ 1778  rails webpacker:compile
+ 1779  yarn install
+ 1780  rails webpacker:install
+ 1781  rm yarn.lock 
+ 1782  yarn upgrade
+ 1783  yarn install
+ 1784  yarn upgrade @rails/webpacker
+ 1785  yarn upgrade webpack@^4.0.0
+ 1786  yarn upgrade
+ 1787  rails webpacker:compile
+ 1788  cd ..
+ 1789  clear
+ 1790  cat WOrthanc/db/migrate/*uid*
+ 1791  cd Isengard/
+ 1792  ls
+ 1793  find . -name weckpacker.yml
+ 1794  find . -name weckpacker.yml -type f
+ 1795  find * -name weckpacker.yml -type f
+ 1796  find * -name webpacker.yml -type f
+ 1797  less config/webpacker.yml 
+ 1798  cd Documents/paul/Isengard/
+ 1799  vim test/test_helper.rb 
+ 1800  rails s
+ 1801  git status
+ 1802  bin/rails test
+ 1803  rails s
+ 1804  vim test/test_helper.rb 
+ 1805  rails s
+ 1806  node -v
+ 1807  which npm
+ 1808  yarn upgrade
+ 1809  rails s
+ 1810  node -v
+ 1811  ./bin/webpack-dev-server 
+ 1812  ls
+ 1813  vim app/javascript/packs/application.js 
+ 1814  cd
+ 1815  npm cache clean -f
+ 1816  npm install -g n
+ 1817  sudo n stable
+ 1818  cd -
+ 1819  ./bin/webpack-dev-server 
+ 1820  node -v
+ 1821  yarn upgrade
+ 1822  rails
+ 1823  rails s
+ 1824  cat package.json 
+ 1825  yarn add webpack
+ 1826  bundle exec rails webpacker:install
+ 1827  yarn install check--files 
+ 1828  yarn add check--files 
+ 1829  yarn add webpack
+ 1830  node -v
+ 1831  node -vnpm -v
+ 1832  npm -v
+ 1833  ./bin/webpack-dev-server 
+ 1834  history
+ 1835  node -v
+ 1836  which nodejs
+ 1837  nodejs -v
+ 1838  which nvm
+ 1839  echo $PATH
+ 1840  echo $PATH | grep node
+ 1841  which node
+ 1842  /usr/bin/node -v
+ 1843  /usr/local/bin/node -v
+ 1844  /bin/node -v
+ 1845  cp /usr/local/bin/node /bin
+ 1846  sudo cp /usr/local/bin/node /bin
+ 1847  sudo cp /usr/local/bin/node /usr/bin
+ 1848  yarn install
+ 1849  yarn upgrade
+ 1850  yarn add webpack
+ 1851  yarn --ignore-engines
+ 1852  yarn --ignore-engines add webpack
+ 1853  rails s
+ 1854  yarn add webpack-cli
+ 1855  yarn --ignore-engines add webpack-cli
+ 1856  rails s
+ 1857  yarn add @rails/webpacker
+ 1858  yarn add @rails/webpacker --ignore-engine
+ 1859  yarn --ignore-engines add @rails/webpacker
+ 1860  rails
+ 1861  rails s
+ 1862  ./bin/webpack-dev-server 
+ 1863  yarn install webpack-cli
+ 1864  yarn add webpack-cli
+ 1865  ./bin/webpack-dev-server 
+ 1866  which node
+ 1867  which nodejs
+ 1868  nodejs -v
+ 1869  node -v
+ 1870  cd Documents/paul/Isengard/
+ 1871  yarn add webpack
+ 1872  cat package.json 
+ 1873  undle && yarn --ignore-engines 
+ 1874  bundle && yarn --ignore-engines 
+ 1875  rails s
+ 1876  bundle && yarn --ignore-engines add webpack-cli
+ 1877  yarn add webpack-cli@3.3.12 --ignore-engines
+ 1878  yarn --ignore-engines add webpack-cli
+ 1879  rails s
+ 1880  ls app/javascript/packs/
+ 1881  ls
+ 1882  rm -rf node_modules
+ 1883  rails assets:clobber
+ 1884  yarn install --check-files
+ 1885  yarn install --check-files --ignore-engines
+ 1886  rails assets:clobber
+ 1887  rails assets:precompile
+ 1888  rails webpacker:install
+ 1889  clear
+ 1890  cd ..
+ 1891  ls
+ 1892  cd iatic/
+ 1893  cat README.md 
+ 1894  rails s
+ 1895  vim README.md 
+ 1896  rails g scaffold documents
+ 1897  rails s
+ 1898  rake db:migrate
+ 1899  rails s
+ 1900  cd Documents/paul/i
+ 1901  cd Documents/paul/iatic/
+ 1902  rails s
+ 1903  rails -v
+ 1904  rails s
+ 1905  cd 
+ 1906  cd Downloads/
+ 1907  unzip RAPPORT_STAGE_REPAIN_PAUL.zip 
+ 1908  ls
+ 1909  cd Documents/paul/iatic/
+ 1910  rails s
+ 1911  git status
+ 1912  git commit -am "Refactor"
+ 1913  git status
+ 1914  git add .
+ 1915  git commit -am "Refactor css"
+ 1916  git push origin master 
+ 1917  rails s
+ 1918  git commit -am "CSS for links"
+ 1919  rails s
+ 1920  git status
+ 1921  git commit -am "Add TODO"
+ 1922  git push origin master 
+ 1923  rails action_text:install
+ 1924  rails g model Note
+ 1925  rake db:migrate
+ 1926  rails g view Note
+ 1927  rails g --help
+ 1928  rails g views Note
+ 1929  rails g controller notes
+ 1930  rails g views notes
+ 1931  rails d controller notes
+ 1932  rails scaffold_controller note
+ 1933  rails scaffold notes
+ 1934  rails g scaffold_controller note
+ 1935  cd Documents/paul/iatic/
+ 1936  rails s
+ 1937  ls
+ 1938  find * -name *png
+ 1939  cp ~/Pictures/v2.png app/assets/images/
+ 1940  sudo apt install libdvdnav4 libdvd-pkg gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+ 1941  sudo apt install ubuntu-restricted-extras
+ 1942  git diff
+ 1943  bundle
+ 1944  cat Gemfile.lock 
+ 1945  bundle
+ 1946  sudo apt install imagemagick
+ 1947  sudo dpkg-reconfigure libdvd-pkg
+ 1948  cd Documents/iatic4/big_data/
+ 1949  ps aux | grep firefox
+ 1950  ls
+ 1951  clear
+ 1952  !
+ 1953  ls
+ 1954  R
+ 1955  less td1.r 
+ 1956  less h5B4LcUw 
+ 1957  less allo.txt 
+ 1958  less h5B4LcUw 
+ 1959  less allo.txt 
+ 1960  less h5B4LcUw 
+ 1961  ls
+ 1962  less td1.r 
+ 1963  ls csv/
+ 1964  cd csv/
+ 1965  R
+ 1966  cd -
+ 1967  R
+ 1968  less allo.R
+ 1969  less allo.txt 
+ 1970  less h5B4LcUw 
+ 1971  ls
+ 1972  ls csv/
+ 1973  head csv/ANSUR_II_MALE_Public.csv 
+ 1974  head csv/ANSUR_II_MALE_Public.csv -n1
+ 1975  ls -lha csv/
+ 1976  less allo.txt 
+ 1977  head csv/ANSUR_II_MALE_Public.csv -n2
+ 1978  ls ..
+ 1979  evince ../Rapport_Projet_Lucien_HEMMI.pdf 
+ 1980  cd Documents/iatic4/big_data/
+ 1981  R
+ 1982  eog ../../hg.png 
+ 1983  eog ../../bd.png 
+ 1984  eog ../../bg.png 
+ 1985  R
+ 1986  head csv/ANSUR_II_MALE_Public.csv -n1
+ 1987  less allo.txt 
+ 1988  less h5B4LcUw 
+ 1989  eog ../../ANSUR_bd.png 
+ 1990  eog ../../ANSUR_hd.png 
+ 1991  eog ../../ANSUR_cercle.png 
+ 1992  less allo.txt 
+ 1993  eog ../../ANSUR_hd.png 
+ 1994  eog ../../ANSUR_bd.png 
+ 1995  cd Documents/iatic4/big_data/
+ 1996  R
+ 1997  cd Documents/paul/imdb_api/
+ 1998  cat RE
+ 1999  ls
+ 2000  cd imdb_api/
+ 2001  ls
+ 2002  cat README.md 
+ 2003  php -S localhost:8000 -t public
+ 2004  ls -a
+ 2005  ls database/
+ 2006  ls resources/
+ 2007  find * -name *tsv -type f
+ 2008  ls ..
+ 2009  ls ../..
+ 2010  find ~/Downloads/* -name *tsv -type f
+ 2011  find ~/* -name *tsv -type f
+ 2012  cat README.md 
+ 2013  wget https://datasets.imdbws.com/title.akas.tsv.gz
+ 2014  mv title.akas.tsv.gz database/seeders/
+ 2015  which untar
+ 2016  cd database/seeders/
+ 2017  less ../../.history.txt 
+ 2018  ls
+ 2019  gunzip title.akas.tsv.gz 
+ 2020  ls
+ 2021  head title.akas.tsv 
+ 2022  cd -
+ 2023  less README.md 
+ 2024  less .history.txt 
+ 2025  php artisan make:migration create_title_akas_table
+ 2026  head title.akas.tsv -n18
+ 2027  head database/seeders/title.akas.tsv  -n19
+ 2028  php artisan migrate
+ 2029  wc database/seeders/title.akas.tsv
+ 2030  wc database/seeders/title.akas.tsv -l
+ 2031  head database/seeders/title.akas.tsv  -n29
+ 2032  cat README.md 
+ 2033  php artisan db:seed --class=TitleAkasSeeder
+ 2034  php artisan migration:rollback
+ 2035  php artisan migrate:rollback
+ 2036  php artisan migrate
+ 2037  php artisan db:seed --class=TitleAkasSeeder
+ 2038  php artisan migrate
+ 2039  php artisan migrate:rollback
+ 2040  php artisan migrate
+ 2041  php artisan db:seed --class=TitleAkasSeeder
+ 2042  c -m "Add table title_akas"
+ 2043  c "Add table title_akas"
+ 2044  cat README.md 
+ 2045  php -S localhost:8000 -t public
+ 2046  head database/seeders/title.akas.tsv  -n29
+ 2047  php artisan migrate:refresh
+ 2048  php artisan db:seed
+ 2049  php -S localhost:8000 -t public
+ 2050  php artisan db:seed --class=TitleAkasSeeder
+ 2051  php artisan db:seed --class=NameBasicsSeeder
+ 2052  php -S localhost:8000 -t public
+ 2053  php artisan migrate:refresh
+ 2054  php artisan db:seed --class=NameBasicsSeeder
+ 2055  php artisan db:seed --class=TitleAkasSeeder
+ 2056  php -S localhost:8000 -t public
+ 2057  history >> .history.txt 

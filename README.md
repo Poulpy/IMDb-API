@@ -20,16 +20,19 @@ wget https://datasets.imdbws.com/name.basics.tsv.gz \
 
 - create database model according to Imdb model
 - seed database with Imdb tsv files
-- query
+- specific query; ?isOriginalTitle=0 => gives all titles with isOriginalTitle==0
 - authentification
 
 - script for downloading those fat tsv files (and moving them to database/seeders)
+- run seeds all in one
 
 ## Run server
 
 ```
 php -S localhost:8000 -t public
 firefox Hhttp://localhost:8000/name_basics/index
+firefox Hhttp://localhost:8000/title_akas/index
+
 ```
 
 
@@ -37,9 +40,19 @@ firefox Hhttp://localhost:8000/name_basics/index
 
 ```
 php artisan db:seed --class=NameBasicsSeeder
+php artisan db:seed --class=TitleAkasSeeder
+```
+
+## Run migration
+
+```
+php artisan migrate
+
+php artisan migrate:refresh
 ```
 
 ## Lost ?
 
 Check `.history.txt` file for last commands run.
+
 
